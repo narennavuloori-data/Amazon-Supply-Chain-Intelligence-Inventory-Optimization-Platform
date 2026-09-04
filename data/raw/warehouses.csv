@@ -1,0 +1,13 @@
+warehouse_id,warehouse_name,city,state_region,country,warehouse_type,storage_capacity_units,daily_processing_capacity,operating_cost_per_day,region,warehouse_status
+WH01,Dallas Fulfillment Center,Dallas,Texas,United States,Fulfillment Center,3461000,48000,131500,South,Active
+WH02,Chicago Fulfillment Center,Chicago,Illinois,United States,Fulfillment Center,2936000,64800,131600,Midwest,Active
+WH03,Newark Distribution Center,Newark,New Jersey,United States,Regional Distribution Center,1867000,35400,93600,Northeast,Active
+WH04,Los Angeles Fulfillment Center,Los Angeles,California,United States,Fulfillment Center,2251000,62600,120300,West,Active
+WH05,Atlanta Sortation Center,Atlanta,Georgia,United States,Sortation Center,718000,24900,60000,Southeast,Active
+WH06,Seattle Fulfillment Center,Seattle,Washington,United States,Fulfillment Center,3538000,49200,141800,Pacific Northwest,Active
+WH07,Phoenix Distribution Center,Phoenix,Arizona,United States,Regional Distribution Center,1566000,34300,109900,Southwest,Temporarily Limited
+WH08,Toronto Fulfillment Center,Toronto,Ontario,Canada,Fulfillment Center,3476000,47900,129500,Canada,Active
+WH09,Hyderabad Fulfillment Center,Hyderabad,Telangana,India,Fulfillment Center,2107000,67700,132100,South Asia,Active
+WH10,Manchester Distribution Center,Manchester,England,United Kingdom,Regional Distribution Center,1376000,26300,96500,Europe,Active
+WH11,Berlin Fulfillment Center,Berlin,Berlin,Germany,Fulfillment Center,2412000,65100,129700,Europe,Active
+WH12,Queretaro Sortation Center,Queretaro,Queretaro,Mexico,Sortation Center,571000,27900,56700,Latin America,Maintenance
