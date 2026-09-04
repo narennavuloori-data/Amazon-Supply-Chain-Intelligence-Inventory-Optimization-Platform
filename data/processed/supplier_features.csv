@@ -1,0 +1,301 @@
+supplier_id,supplier_name,supplier_region,country,supplier_type,quality_rating,reliability_score,payment_terms_days,average_lead_time_days,on_time_delivery_rate,defect_rate,capacity_units_per_month,supplier_status,completed_po_count,late_po_count,partial_po_count,actual_late_delivery_rate,partial_delivery_rate,late_delivery_flag,quality_risk_flag,supplier_risk_score
+SUP001,Jasperline Industries,Europe,Germany,Manufacturer,4,79.3,45,10,0.9275,0.0208,14770,Active,96,7,14,0.07291666666666667,0.14583333333333334,0,0,16.82
+SUP002,Delta Holdings,South Asia,India,Manufacturer,4,80.6,30,39,0.9568,0.0057,3352,Active,0,0,0,0.0,0.0,0,0,10.83
+SUP003,Rockford Fabrication,Europe,Italy,Manufacturer,5,96.3,60,7,0.992,0.0065,43940,Active,194,3,12,0.015463917525773196,0.061855670103092786,0,0,3.17
+SUP004,Crestmark Inc.,North America,Mexico,Manufacturer,4,77.0,45,11,0.9229,0.0154,36826,Active,60,6,4,0.1,0.06666666666666667,0,0,16.68
+SUP005,Coral Bay Components,East Asia,China,Manufacturer,4,77.5,45,35,0.9447,0.0191,56456,Active,222,13,21,0.05855855855855856,0.0945945945945946,0,0,16.29
+SUP006,Cedarwood Inc.,Middle East,Turkey,Contract Packager,3,53.8,90,43,0.8793,0.0293,6386,Active,66,6,11,0.09090909090909091,0.16666666666666666,0,0,30.57
+SUP007,Everline Inc.,North America,Canada,Manufacturer,4,75.2,30,20,0.9376,0.0165,62428,Active,99,8,9,0.08080808080808081,0.09090909090909091,0,0,16.84
+SUP008,Kestrel Corporation,Europe,Germany,Manufacturer,3,56.8,60,19,0.886,0.033,315757,Active,1266,141,160,0.11137440758293839,0.1263823064770932,0,0,30.73
+SUP009,Jasperline Enterprises,East Asia,China,Manufacturer,4,78.9,60,26,0.9144,0.0171,32540,Active,31,3,7,0.0967741935483871,0.22580645161290322,0,0,16.7
+SUP010,Timbergate Ltd.,South Asia,India,Manufacturer,4,67.4,30,46,0.8659,0.0234,27697,Active,68,6,6,0.08823529411764706,0.08823529411764706,0,0,22.81
+SUP011,Vantage Corporation,Southeast Asia,Indonesia,Manufacturer,4,79.8,15,32,0.9673,0.0178,42419,Active,114,2,10,0.017543859649122806,0.08771929824561403,0,0,14.09
+SUP012,Kestrel Fabrication,Latin America,Brazil,Manufacturer,5,91.3,30,28,0.9704,0.0069,307794,Active,961,26,80,0.027055150884495317,0.08324661810613944,0,0,5.48
+SUP013,Palisade Group,North America,United States,Manufacturer,3,54.1,60,9,0.8173,0.0419,9162,Probation,8,2,1,0.25,0.125,1,0,37.56
+SUP014,Cedarwood Components,Europe,Germany,Manufacturer,4,73.5,30,10,0.9025,0.0222,37560,Active,36,4,3,0.1111111111111111,0.08333333333333333,0,0,20.1
+SUP015,Foundry Row Inc.,South Asia,India,Distributor,4,66.8,45,35,0.9141,0.0241,11854,Active,13,2,2,0.15384615384615385,0.15384615384615385,0,0,22.94
+SUP016,Wrenfield Fabrication,Southeast Asia,Vietnam,Manufacturer,4,74.7,15,31,0.9099,0.0191,15850,Active,14,0,3,0.0,0.21428571428571427,0,0,17.12
+SUP017,Cedarwood Inc. (2),North America,United States,Manufacturer,4,69.8,30,14,0.9144,0.0142,28084,Active,99,12,16,0.12121212121212122,0.16161616161616163,0,0,19.07
+SUP018,Rockford Supply Co.,East Asia,China,Distributor,4,80.5,45,47,0.9561,0.0191,140003,Active,452,25,47,0.05530973451327434,0.10398230088495575,0,0,15.05
+SUP019,Ashgrove Group,Europe,Germany,Manufacturer,5,90.9,30,15,0.9428,0.0075,235894,Active,375,18,35,0.048,0.09333333333333334,0,0,6.75
+SUP020,Foundry Row Supply Co.,North America,United States,Manufacturer,5,92.7,60,8,0.9523,0.001,49780,Active,103,5,9,0.04854368932038835,0.08737864077669903,0,0,4.36
+SUP021,Crestmark Group,North America,Canada,Manufacturer,4,65.6,30,16,0.8832,0.0299,19282,Active,46,5,8,0.10869565217391304,0.17391304347826086,0,0,24.85
+SUP022,Quinlan Corporation,Southeast Asia,Indonesia,Manufacturer,3,40.0,60,56,0.8465,0.0398,522641,Probation,1342,208,178,0.15499254843517138,0.13263785394932937,0,0,39.11
+SUP023,Dunmore Components,Middle East,Turkey,Manufacturer,3,47.5,30,50,0.8704,0.0413,18184,Active,22,4,1,0.18181818181818182,0.045454545454545456,0,0,37.04
+SUP024,Everline Ltd.,Europe,Poland,Contract Packager,5,96.2,90,13,0.994,0.001,15417,Active,22,0,1,0.0,0.045454545454545456,0,0,1.54
+SUP025,Quinlan Ltd.,Europe,Germany,Contract Packager,3,54.7,45,12,0.8626,0.0327,3862,Probation,2,0,0,0.0,0.0,0,0,30.2
+SUP026,Wrenfield Group,East Asia,South Korea,Contract Packager,3,67.5,15,32,0.9035,0.0309,148080,Active,279,18,27,0.06451612903225806,0.0967741935483871,0,0,25.86
+SUP027,Ironbridge Global,South Asia,India,Manufacturer,4,69.6,15,44,0.9022,0.0279,90534,Active,301,19,26,0.06312292358803986,0.08637873754152824,0,0,21.99
+SUP028,Coral Bay Corporation,East Asia,China,Manufacturer,3,64.8,15,50,0.8814,0.029,479489,Active,1032,103,110,0.0998062015503876,0.1065891472868217,0,0,27.27
+SUP029,Ivywood Inc.,East Asia,China,Manufacturer,4,78.2,45,31,0.918,0.0197,6015,Active,0,0,0,0.0,0.0,0,0,16.01
+SUP030,Novagen Industries,North America,Mexico,Manufacturer,5,96.3,60,8,0.978,0.0078,159038,Active,515,8,52,0.015533980582524271,0.10097087378640776,0,0,3.84
+SUP031,Rockford Manufacturing,North America,Canada,Manufacturer,2,24.9,30,23,0.7905,0.0527,32230,Probation,115,26,22,0.22608695652173913,0.19130434782608696,1,1,51.83
+SUP032,BlueStone Industries,Middle East,Turkey,Manufacturer,3,46.0,30,48,0.8688,0.0317,75133,Probation,417,51,52,0.1223021582733813,0.12470023980815348,0,0,34.24
+SUP033,Kingsford Fabrication,Southeast Asia,Indonesia,Manufacturer,3,70.0,45,51,0.895,0.0266,4470,Active,9,0,2,0.0,0.2222222222222222,0,0,23.28
+SUP034,Rockford Fabrication (2),Southeast Asia,Indonesia,Manufacturer,4,88.7,45,49,0.9268,0.0189,160861,Active,601,31,65,0.051580698835274545,0.10815307820299501,0,0,13.22
+SUP035,Calderon Industries,South Asia,India,Manufacturer,3,50.9,45,30,0.8414,0.0408,73460,Probation,189,35,25,0.18518518518518517,0.13227513227513227,0,0,36.67
+SUP036,Silvertip Industries,East Asia,South Korea,Distributor,4,75.0,30,24,0.9271,0.0187,28432,Active,48,1,8,0.020833333333333332,0.16666666666666666,0,0,16.81
+SUP037,Novagen Components,East Asia,China,Manufacturer,4,59.4,45,36,0.8682,0.0389,62435,Active,140,10,13,0.07142857142857142,0.09285714285714286,0,0,28.77
+SUP038,Vantage Inc.,South Asia,India,Wholesaler,4,83.3,90,41,0.9756,0.0237,12329,Active,12,0,0,0.0,0.0,0,0,14.04
+SUP039,Ashgrove Group (2),Southeast Asia,Vietnam,Manufacturer,4,71.9,30,55,0.8799,0.0267,15270,Active,107,10,13,0.09345794392523364,0.12149532710280374,0,0,22.01
+SUP040,Highmoor Corporation,North America,Mexico,Manufacturer,3,48.1,15,20,0.858,0.0395,17449,Probation,86,10,11,0.11627906976744186,0.12790697674418605,0,0,35.74
+SUP041,BlueStone Holdings,South Asia,India,Manufacturer,5,83.3,30,57,0.9656,0.0194,3531,Active,1,0,1,0.0,1.0,0,0,10.72
+SUP042,Graystone Trading Co.,Europe,Germany,Manufacturer,5,89.3,45,17,0.9522,0.0077,80099,Active,353,16,39,0.0453257790368272,0.11048158640226628,0,0,7.01
+SUP043,Graystone Group,North America,Mexico,Manufacturer,4,78.3,30,18,0.9732,0.0218,117047,Active,248,3,20,0.012096774193548387,0.08064516129032258,0,0,15.31
+SUP044,Delta Fabrication,Southeast Asia,Vietnam,Manufacturer,5,90.8,60,32,0.9688,0.0021,13273,Active,33,0,5,0.0,0.15151515151515152,0,0,4.07
+SUP045,Delta Global,Europe,Germany,Distributor,3,67.9,45,18,0.8984,0.0283,44375,Active,82,16,10,0.1951219512195122,0.12195121951219512,0,0,27.17
+SUP046,Wrenfield Trading Co.,Europe,Germany,Manufacturer,5,80.4,45,16,0.9105,0.018,21908,Active,40,4,2,0.1,0.05,0,0,14.12
+SUP047,Graystone Corporation,South Asia,India,Manufacturer,3,60.3,45,30,0.8669,0.0301,43370,Active,111,14,19,0.12612612612612611,0.17117117117117117,0,0,29.65
+SUP048,Coral Bay Fabrication,Southeast Asia,Vietnam,Contract Packager,4,83.1,30,26,0.9434,0.0125,14448,Active,8,1,0,0.125,0.0,0,0,13.99
+SUP049,Timbergate Enterprises,North America,Mexico,Manufacturer,4,73.5,60,17,0.9331,0.0223,10765,Active,9,0,1,0.0,0.1111111111111111,0,0,17.7
+SUP050,Marlowe Global,East Asia,China,Distributor,4,91.3,15,57,0.954,0.016,99697,Active,353,12,38,0.0339943342776204,0.10764872521246459,0,0,10.77
+SUP051,Ironbridge Manufacturing,East Asia,South Korea,Manufacturer,3,48.6,45,30,0.8767,0.0386,27627,Probation,36,5,5,0.1388888888888889,0.1388888888888889,0,0,35.24
+SUP052,Cedarwood Holdings,East Asia,China,Manufacturer,4,83.5,60,56,0.947,0.0128,304195,Active,832,45,82,0.054086538461538464,0.0985576923076923,0,0,12.79
+SUP053,Marlowe Trading Co.,Europe,Germany,Manufacturer,5,95.7,45,13,0.9708,0.0066,31359,Active,88,1,4,0.011363636363636364,0.045454545454545456,0,0,3.84
+SUP054,Crestmark Manufacturing,North America,United States,Manufacturer,2,27.0,60,14,0.8222,0.0586,10250,Inactive,14,2,3,0.14285714285714285,0.21428571428571427,0,1,50.64
+SUP055,Amberton Trading Co.,North America,Mexico,Distributor,2,22.4,30,13,0.7903,0.0599,121903,Inactive,222,39,24,0.17567567567567569,0.10810810810810811,0,1,53.63
+SUP056,Kestrel Group,Europe,Germany,Manufacturer,5,87.2,60,7,0.9538,0.0099,61416,Active,150,6,12,0.04,0.08,0,0,8.07
+SUP057,Foundry Row Corporation,South Asia,India,Manufacturer,3,53.6,45,45,0.8653,0.0393,68590,Active,114,17,11,0.14912280701754385,0.09649122807017543,0,0,34.35
+SUP058,Harborlight Ltd.,North America,United States,Manufacturer,3,66.5,45,9,0.8735,0.0268,116914,Active,423,46,41,0.10874704491725769,0.09692671394799054,0,0,26.54
+SUP059,Wrenfield Ltd.,East Asia,China,Wholesaler,2,34.1,15,54,0.8305,0.0484,14035,Probation,10,4,1,0.4,0.1,1,1,49.61
+SUP060,Wrenfield Holdings,East Asia,China,Wholesaler,4,63.9,30,29,0.8825,0.0309,25685,Active,16,0,5,0.0,0.3125,0,0,23.99
+SUP061,Everline Manufacturing,North America,Mexico,Contract Packager,4,84.3,45,17,0.9394,0.0183,24412,Active,3308,195,333,0.05894800483675937,0.10066505441354293,0,0,14.18
+SUP062,Driftline Enterprises,South Asia,India,Distributor,4,90.4,15,43,0.9682,0.0054,6739,Active,8,0,0,0.0,0.0,0,0,7.52
+SUP063,Sterling Corporation,North America,United States,Distributor,5,99.4,45,3,0.995,0.0015,21958,Active,6,0,0,0.0,0.0,0,0,0.68
+SUP064,Everline Trading Co.,Europe,Germany,Manufacturer,3,44.4,60,11,0.8154,0.0458,138252,Probation,461,76,54,0.1648590021691974,0.11713665943600868,0,0,40.22
+SUP065,Marlowe Components,North America,United States,Wholesaler,4,70.4,60,11,0.8748,0.0244,39063,Active,20,1,2,0.05,0.1,0,0,21.36
+SUP066,Foundry Row Components,North America,United States,Manufacturer,4,76.3,30,5,0.9203,0.0204,6324,Active,0,0,0,0.0,0.0,0,0,16.7
+SUP067,Silvertip Enterprises,North America,United States,Manufacturer,4,75.2,60,12,0.9381,0.0191,4968,Active,37,2,6,0.05405405405405406,0.16216216216216217,0,0,17.07
+SUP068,Ivywood Trading Co.,Southeast Asia,Vietnam,Distributor,4,86.8,15,29,0.9604,0.0143,201691,Active,378,18,37,0.047619047619047616,0.09788359788359788,0,0,11.74
+SUP069,Ashgrove Supply Co.,East Asia,China,Manufacturer,4,73.8,30,34,0.8856,0.0236,26799,Active,73,10,5,0.136986301369863,0.0684931506849315,0,0,21.17
+SUP070,Dunmore Enterprises,South Asia,India,Manufacturer,4,61.0,60,28,0.8858,0.0278,14122,Active,32,5,4,0.15625,0.125,0,0,26.35
+SUP071,Ashgrove Components,East Asia,South Korea,Manufacturer,3,57.2,15,28,0.8671,0.025,21697,Active,125,23,15,0.184,0.12,0,0,30.17
+SUP072,Driftline Trading Co.,South Asia,India,Manufacturer,3,52.1,15,33,0.833,0.0374,5438,Probation,1,0,0,0.0,0.0,0,0,32.9
+SUP073,Timbergate Fabrication,Europe,Italy,Wholesaler,3,49.8,15,22,0.8382,0.0335,152750,Probation,229,35,37,0.15283842794759825,0.1615720524017467,0,0,34.77
+SUP074,Crestmark Ltd.,Southeast Asia,Vietnam,Manufacturer,4,82.0,45,25,0.9474,0.0196,18920,Active,11,0,1,0.0,0.09090909090909091,0,0,14.11
+SUP075,Ivywood Inc. (2),East Asia,China,Wholesaler,4,97.2,60,24,0.9828,0.0033,143274,Active,921,15,67,0.016286644951140065,0.0727470141150923,0,0,4.84
+SUP076,Comet Corporation,Southeast Asia,Vietnam,Manufacturer,4,93.2,30,34,0.9789,0.0057,31552,Active,64,1,3,0.015625,0.046875,0,0,6.73
+SUP077,Ivywood Components,Southeast Asia,Vietnam,Distributor,4,91.0,30,21,0.9869,0.0068,153885,Active,313,5,18,0.01597444089456869,0.05750798722044728,0,0,7.47
+SUP078,Ivywood Manufacturing,North America,United States,Manufacturer,3,67.9,45,19,0.9556,0.0247,39943,Active,56,3,5,0.05357142857142857,0.08928571428571429,0,0,22.72
+SUP079,BlueStone Corporation,North America,United States,Contract Packager,4,70.6,30,19,0.8627,0.0307,79318,Active,67,6,9,0.08955223880597014,0.13432835820895522,0,0,23.77
+SUP080,Ashgrove Components (2),Europe,Germany,Manufacturer,5,88.8,45,5,0.947,0.0111,67979,Active,143,9,13,0.06293706293706294,0.09090909090909091,0,0,8.4
+SUP081,Marlowe Corporation,North America,United States,Manufacturer,4,97.6,60,8,0.968,0.0042,60888,Active,127,2,12,0.015748031496062992,0.09448818897637795,0,0,5.31
+SUP082,Quinlan Holdings,South Asia,India,Manufacturer,5,91.8,45,11,0.9391,0.0093,44361,Active,128,7,9,0.0546875,0.0703125,0,0,7.13
+SUP083,Vantage Industries,Europe,Germany,Manufacturer,3,48.8,60,18,0.8266,0.0386,22748,Probation,53,7,12,0.1320754716981132,0.22641509433962265,0,0,36.33
+SUP084,Ivywood Corporation,East Asia,China,Manufacturer,4,72.8,45,45,0.9123,0.0219,269076,Active,524,42,56,0.08015267175572519,0.10687022900763359,0,0,19.53
+SUP085,Foundry Row Global,East Asia,China,Distributor,4,64.1,60,46,0.8755,0.0277,10478,Active,2,1,0,0.5,0.0,1,0,30.81
+SUP086,Delta Corporation,East Asia,China,Contract Packager,4,82.5,30,51,0.9583,0.0092,29880,Active,121,4,7,0.03305785123966942,0.05785123966942149,0,0,11.59
+SUP087,Cedarwood Enterprises,North America,Canada,Distributor,4,82.1,15,8,0.9603,0.0099,30246,Active,191,0,10,0.0,0.05235602094240838,0,0,11.34
+SUP088,Wrenfield Corporation,South Asia,India,Manufacturer,4,76.9,45,42,0.9242,0.0158,47231,Active,122,13,17,0.10655737704918032,0.13934426229508196,0,0,16.87
+SUP089,Amberton Inc.,East Asia,China,Manufacturer,5,100.0,15,31,0.9862,0.0059,18144,Active,38,1,3,0.02631578947368421,0.07894736842105263,0,0,2.21
+SUP090,Everline Industries,South Asia,Bangladesh,Wholesaler,4,96.1,60,25,0.9741,0.0113,42700,Active,186,5,17,0.026881720430107527,0.0913978494623656,0,0,7.55
+SUP091,Dunmore Corporation,East Asia,China,Wholesaler,5,87.1,45,23,0.9641,0.0057,24485,Active,15,1,2,0.06666666666666667,0.13333333333333333,0,0,7.19
+SUP092,Delta Trading Co.,North America,Mexico,Manufacturer,3,49.2,90,11,0.8768,0.0491,4821,Probation,0,0,0,0.0,0.0,0,0,35.6
+SUP093,Everline Global,South Asia,India,Contract Packager,4,84.6,30,19,0.9337,0.0154,30061,Active,138,12,12,0.08695652173913043,0.08695652173913043,0,0,13.93
+SUP094,Amberton Trading Co. (2),South Asia,India,Manufacturer,3,40.0,30,54,0.7841,0.0478,8386,Probation,11,3,1,0.2727272727272727,0.09090909090909091,1,0,44.44
+SUP095,Pacific Rim Fabrication,Southeast Asia,Vietnam,Wholesaler,4,71.9,45,45,0.8872,0.0238,4046,Active,7,1,0,0.14285714285714285,0.0,0,0,21.84
+SUP096,Coral Bay Holdings,North America,United States,Contract Packager,5,86.5,30,7,0.9393,0.0055,34801,Active,55,6,7,0.10909090909090909,0.12727272727272726,0,0,8.58
+SUP097,Jasperline Ltd.,Southeast Asia,Indonesia,Distributor,3,55.0,45,48,0.8566,0.0374,52108,Probation,188,25,35,0.13297872340425532,0.18617021276595744,0,0,33.43
+SUP098,Kingsford Manufacturing,East Asia,China,Manufacturer,2,46.0,45,51,0.8434,0.0408,54486,Probation,60,7,4,0.11666666666666667,0.06666666666666667,0,1,39.56
+SUP099,Highmoor Trading Co.,East Asia,China,Distributor,5,85.9,90,19,0.9374,0.0157,57082,Active,153,10,14,0.06535947712418301,0.0915032679738562,0,0,10.7
+SUP100,Ironbridge Fabrication,Middle East,Turkey,Manufacturer,3,56.3,45,17,0.9216,0.035,3221,Active,2,0,0,0.0,0.0,0,0,28.82
+SUP101,Sterling Holdings,Europe,Poland,Wholesaler,3,57.2,30,14,0.8704,0.0368,6216,Probation,0,0,0,0.0,0.0,0,0,30.28
+SUP102,Elmsworth Inc.,North America,Mexico,Manufacturer,3,67.3,30,16,0.8977,0.0329,287664,Active,1135,105,129,0.09251101321585903,0.11365638766519824,0,0,26.98
+SUP103,Novagen Enterprises,Southeast Asia,Vietnam,Distributor,4,87.7,45,22,0.9448,0.0066,8917,Active,70,2,5,0.02857142857142857,0.07142857142857142,0,0,9.65
+SUP104,Brightfield Supply Co.,Middle East,Turkey,Wholesaler,3,56.5,30,25,0.857,0.0344,60022,Active,156,18,23,0.11538461538461539,0.14743589743589744,0,0,31.96
+SUP105,Delta Industries,Europe,Germany,Manufacturer,5,84.5,30,13,0.9707,0.0046,13494,Active,6,0,1,0.0,0.16666666666666666,0,0,6.53
+SUP106,Vaultis Group,North America,Mexico,Manufacturer,5,90.9,30,12,0.9701,0.0111,32586,Active,65,1,3,0.015384615384615385,0.046153846153846156,0,0,6.48
+SUP107,Rockford Ltd.,South Asia,India,Distributor,4,69.5,30,20,0.8712,0.0302,14354,Active,9,1,2,0.1111111111111111,0.2222222222222222,0,0,24.09
+SUP108,Jasperline Holdings,Southeast Asia,Vietnam,Manufacturer,4,59.4,45,57,0.8867,0.0281,56714,Active,143,20,11,0.13986013986013987,0.07692307692307693,0,0,26.64
+SUP109,Delta Holdings (2),East Asia,China,Manufacturer,3,62.5,30,37,0.8762,0.0258,34797,Active,99,9,11,0.09090909090909091,0.1111111111111111,0,0,27.16
+SUP110,Fernway Inc.,Europe,Poland,Manufacturer,5,96.6,45,7,0.9812,0.0011,17756,Active,12,0,2,0.0,0.16666666666666666,0,0,1.77
+SUP111,Marlowe Group,South Asia,India,Manufacturer,3,53.1,30,58,0.8501,0.0387,8887,Active,2,1,0,0.5,0.0,1,0,39.99
+SUP112,Coral Bay Holdings (2),East Asia,South Korea,Distributor,3,48.7,45,27,0.8368,0.0417,40455,Probation,32,6,1,0.1875,0.03125,0,0,37.71
+SUP113,Vaultis Ltd.,Southeast Asia,Vietnam,Distributor,4,78.9,30,46,0.9128,0.0222,7371,Active,19,2,4,0.10526315789473684,0.21052631578947367,0,0,18.14
+SUP114,Ashford Group,North America,United States,Manufacturer,5,98.8,60,7,0.9812,0.0074,48611,Active,146,4,14,0.0273972602739726,0.0958904109589041,0,0,3.09
+SUP115,Brightfield Trading Co.,East Asia,South Korea,Manufacturer,4,92.2,15,39,0.9809,0.0087,609539,Active,2443,35,200,0.014326647564469915,0.08186655751125665,0,0,7.71
+SUP116,Crestmark Ltd. (2),Europe,Italy,Manufacturer,3,48.7,45,13,0.8557,0.0474,140462,Probation,464,68,55,0.14655172413793102,0.11853448275862069,0,0,38.05
+SUP117,Quinlan Enterprises,North America,Canada,Manufacturer,4,65.1,30,11,0.8964,0.028,67921,Active,193,19,25,0.09844559585492228,0.12953367875647667,0,0,24.04
+SUP118,Ivywood Inc. (3),North America,Mexico,Distributor,2,32.0,30,18,0.7832,0.0596,26945,Probation,23,4,4,0.17391304347826086,0.17391304347826086,0,1,50.83
+SUP119,Vaultis Corporation,South Asia,India,Manufacturer,3,51.3,30,42,0.8558,0.0413,3198,Probation,5,1,0,0.2,0.0,0,0,36.54
+SUP120,Amberton Enterprises,North America,United States,Manufacturer,4,72.0,60,11,0.9266,0.0247,6499,Active,0,0,0,0.0,0.0,0,0,18.91
+SUP121,Comet Corporation (2),North America,United States,Contract Packager,4,77.5,60,14,0.9109,0.0196,129990,Active,380,24,36,0.06315789473684211,0.09473684210526316,0,0,17.32
+SUP122,Vantage Trading Co.,North America,United States,Manufacturer,2,25.9,30,14,0.7999,0.0554,11989,Inactive,4,0,0,0.0,0.0,0,1,48.58
+SUP123,Graystone Ltd.,East Asia,China,Distributor,4,78.1,30,55,0.9402,0.0254,13305,Active,26,2,5,0.07692307692307693,0.19230769230769232,0,0,18.07
+SUP124,Everline Inc. (2),South Asia,India,Manufacturer,3,61.4,45,46,0.8976,0.0341,24575,Active,71,4,5,0.056338028169014086,0.07042253521126761,0,0,28.51
+SUP125,Vaultis Inc.,East Asia,China,Manufacturer,3,32.7,45,17,0.8641,0.0476,8766,Probation,33,7,5,0.21212121212121213,0.15151515151515152,1,0,43.67
+SUP126,Driftline Manufacturing,South Asia,India,Manufacturer,4,78.0,30,51,0.8951,0.0229,7253,Active,1,0,0,0.0,0.0,0,0,17.45
+SUP127,Ironbridge Manufacturing (2),Southeast Asia,Indonesia,Distributor,4,63.8,45,33,0.9205,0.0186,28056,Active,147,14,15,0.09523809523809523,0.10204081632653061,0,0,21.43
+SUP128,Ashgrove Group (3),East Asia,China,Wholesaler,5,94.4,45,17,0.9811,0.004,10665,Active,5,0,1,0.0,0.2,0,0,3.15
+SUP129,Novagen Fabrication,East Asia,China,Manufacturer,3,71.8,45,37,0.8943,0.0312,12681,Active,9,0,0,0.0,0.0,0,0,23.9
+SUP130,Crestmark Global,North America,United States,Manufacturer,3,56.1,30,13,0.8532,0.0367,12108,Active,17,0,3,0.0,0.17647058823529413,0,0,31.02
+SUP131,Palisade Components,East Asia,China,Manufacturer,4,79.3,30,22,0.9173,0.008,54215,Active,63,7,6,0.1111111111111111,0.09523809523809523,0,0,14.44
+SUP132,Calderon Trading Co.,Latin America,Brazil,Distributor,4,69.7,30,34,0.9167,0.0212,22767,Active,94,7,9,0.07446808510638298,0.09574468085106383,0,0,20.09
+SUP133,Highmoor Ltd.,North America,United States,Distributor,4,89.4,45,11,0.932,0.0184,24213,Active,21,1,1,0.047619047619047616,0.047619047619047616,0,0,12.69
+SUP134,Timbergate Corporation,Southeast Asia,Indonesia,Distributor,4,57.0,30,26,0.8892,0.0286,59071,Active,225,22,26,0.09777777777777778,0.11555555555555555,0,0,26.79
+SUP135,Vaultis Ltd. (2),North America,United States,Wholesaler,5,92.5,45,9,0.9393,0.0055,25252,Active,97,6,11,0.061855670103092786,0.1134020618556701,0,0,6.07
+SUP136,Dunmore Ltd.,East Asia,China,Manufacturer,3,46.7,45,50,0.814,0.0489,21590,Probation,40,10,10,0.25,0.25,1,0,41.62
+SUP137,Harborlight Group,Middle East,Turkey,Distributor,4,73.5,45,45,0.9316,0.0206,51073,Active,51,4,4,0.0784313725490196,0.0784313725490196,0,0,18.49
+SUP138,Harborlight Industries,South Asia,India,Distributor,3,73.2,15,17,0.9221,0.0205,64115,Active,155,13,13,0.08387096774193549,0.08387096774193549,0,0,21.37
+SUP139,Driftline Fabrication,Europe,Germany,Manufacturer,3,36.2,30,12,0.8284,0.0473,25106,Inactive,47,7,7,0.14893617021276595,0.14893617021276595,0,0,42.49
+SUP140,Timbergate Enterprises (2),East Asia,China,Wholesaler,4,69.5,30,25,0.9351,0.0314,32621,Active,169,12,19,0.07100591715976332,0.11242603550295859,0,0,22.19
+SUP141,Timbergate Manufacturing,South Asia,India,Manufacturer,2,33.3,45,20,0.7936,0.0545,12100,Inactive,3,0,0,0.0,0.0,0,1,46.3
+SUP142,Ashford Ltd.,South Asia,India,Distributor,4,65.9,60,40,0.9208,0.0263,11050,Active,3,0,2,0.0,0.6666666666666666,0,0,21.28
+SUP143,Dunmore Inc.,Latin America,Brazil,Distributor,4,76.0,30,46,0.9034,0.0207,72007,Active,319,34,29,0.10658307210031348,0.09090909090909091,0,0,18.89
+SUP144,Novagen Components (2),North America,United States,Wholesaler,5,86.5,60,20,0.9351,0.0101,49597,Active,112,5,12,0.044642857142857144,0.10714285714285714,0,0,8.87
+SUP145,Ivywood Enterprises,South Asia,India,Manufacturer,4,89.3,30,32,0.9758,0.0144,50191,Active,61,2,6,0.03278688524590164,0.09836065573770492,0,0,10.41
+SUP146,Ashgrove Ltd.,Southeast Asia,Vietnam,Manufacturer,4,63.9,30,44,0.8824,0.0251,41068,Active,35,2,1,0.05714285714285714,0.02857142857142857,0,0,23.4
+SUP147,Marlowe Global (2),Southeast Asia,Indonesia,Wholesaler,4,71.3,15,22,0.8674,0.0322,31355,Active,48,9,5,0.1875,0.10416666666666667,0,0,25.29
+SUP148,Timbergate Enterprises (3),South Asia,Bangladesh,Wholesaler,2,47.1,45,26,0.8363,0.0403,66229,Probation,143,24,22,0.16783216783216784,0.15384615384615385,0,1,40.05
+SUP149,Palisade Components (2),South Asia,India,Manufacturer,4,64.3,30,59,0.8983,0.021,87149,Active,409,32,50,0.07823960880195599,0.12224938875305623,0,0,22.18
+SUP150,Comet Holdings,East Asia,China,Distributor,4,79.6,30,44,0.9205,0.0173,84788,Active,212,17,22,0.08018867924528301,0.10377358490566038,0,0,16.14
+SUP151,Coral Bay Components (2),Europe,Germany,Manufacturer,5,88.7,45,25,0.9604,0.0098,26479,Active,24,2,3,0.08333333333333333,0.125,0,0,8.08
+SUP152,Highmoor Ltd. (2),Europe,Poland,Distributor,4,70.0,45,9,0.9424,0.0225,146538,Active,263,9,21,0.034220532319391636,0.07984790874524715,0,0,19.08
+SUP153,Coral Bay Industries,East Asia,China,Wholesaler,3,57.6,15,47,0.8498,0.0363,38667,Active,89,12,8,0.1348314606741573,0.0898876404494382,0,0,32.57
+SUP154,Sterling Global,North America,United States,Manufacturer,4,74.7,15,12,0.9029,0.0166,61527,Active,171,9,15,0.05263157894736842,0.08771929824561403,0,0,17.46
+SUP155,Cedarwood Components (2),East Asia,China,Manufacturer,4,62.5,45,40,0.9253,0.0265,41126,Active,65,4,6,0.06153846153846154,0.09230769230769231,0,0,23.17
+SUP156,Rockford Group,North America,Mexico,Contract Packager,4,84.3,30,20,0.9587,0.0125,39500,Active,153,6,10,0.0392156862745098,0.06535947712418301,0,0,11.96
+SUP157,Timbergate Ltd. (2),Southeast Asia,Vietnam,Wholesaler,4,56.6,30,16,0.8726,0.0285,12758,Active,21,3,1,0.14285714285714285,0.047619047619047616,0,0,27.97
+SUP158,Marlowe Group (2),North America,United States,Wholesaler,4,64.0,45,23,0.8627,0.0265,66606,Active,177,17,19,0.096045197740113,0.10734463276836158,0,0,24.8
+SUP159,Kingsford Manufacturing (2),North America,Canada,Manufacturer,4,64.8,30,13,0.8836,0.0323,783941,Active,2392,277,270,0.11580267558528429,0.112876254180602,0,0,25.78
+SUP160,Palisade Enterprises,Europe,Germany,Contract Packager,4,71.6,45,15,0.9167,0.0159,19322,Active,33,2,6,0.06060606060606061,0.18181818181818182,0,0,17.99
+SUP161,Quinlan Industries,East Asia,China,Manufacturer,4,79.4,30,42,0.9303,0.0255,32262,Active,94,11,6,0.11702127659574468,0.06382978723404255,0,0,18.55
+SUP162,Elmsworth Corporation,Latin America,Brazil,Manufacturer,4,79.3,30,51,0.9085,0.0129,17798,Active,41,3,6,0.07317073170731707,0.14634146341463414,0,0,15.32
+SUP163,Pacific Rim Industries,Southeast Asia,Vietnam,Manufacturer,3,43.0,30,43,0.82,0.0467,16963,Inactive,68,7,13,0.10294117647058823,0.19117647058823528,0,0,39.82
+SUP164,Rockford Supply Co. (2),East Asia,China,Wholesaler,4,60.9,30,24,0.9106,0.0253,175627,Active,375,38,36,0.10133333333333333,0.096,0,0,24.31
+SUP165,Amberton Fabrication,North America,United States,Wholesaler,4,68.7,15,8,0.8591,0.0178,13713,Active,68,11,5,0.16176470588235295,0.07352941176470588,0,0,22.29
+SUP166,Dunmore Supply Co.,Southeast Asia,Indonesia,Distributor,5,97.2,30,35,0.995,0.0056,17237,Active,14,0,1,0.0,0.07142857142857142,0,0,2.36
+SUP167,Elmsworth Corporation (2),Europe,Germany,Distributor,4,83.5,60,22,0.9304,0.0101,4790,Active,0,0,0,0.0,0.0,0,0,11.72
+SUP168,Vaultis Components,Europe,Germany,Manufacturer,4,72.3,60,7,0.9058,0.0198,12441,Active,38,5,5,0.13157894736842105,0.13157894736842105,0,0,20.09
+SUP169,Vaultis Enterprises,Southeast Asia,Vietnam,Manufacturer,4,89.3,30,28,0.9779,0.0086,4169,Active,16,1,0,0.0625,0.0,0,0,9.35
+SUP170,Wrenfield Fabrication (2),Latin America,Brazil,Manufacturer,4,76.6,45,27,0.9471,0.0233,61487,Active,157,6,21,0.03821656050955414,0.1337579617834395,0,0,17.24
+SUP171,Rockford Holdings,Southeast Asia,Vietnam,Manufacturer,4,82.6,45,52,0.9573,0.0178,743892,Active,1856,76,181,0.040948275862068964,0.09752155172413793,0,0,13.85
+SUP172,Cedarwood Corporation,South Asia,Bangladesh,Manufacturer,5,90.3,60,45,0.9124,0.0107,19503,Active,15,1,0,0.06666666666666667,0.0,0,0,8.78
+SUP173,Crestmark Components,Southeast Asia,Vietnam,Wholesaler,5,93.2,30,42,0.9619,0.005,4373,Active,0,0,0,0.0,0.0,0,0,4.24
+SUP174,Brightfield Holdings,Latin America,Brazil,Distributor,4,73.5,30,26,0.9191,0.0254,83700,Active,235,19,29,0.08085106382978724,0.12340425531914893,0,0,20.04
+SUP175,Silvertip Supply Co.,East Asia,China,Wholesaler,5,93.1,30,46,0.9688,0.0112,12888,Active,8,0,0,0.0,0.0,0,0,5.65
+SUP176,Cedarwood Industries,East Asia,China,Manufacturer,4,52.5,15,47,0.8702,0.0399,132488,Active,512,70,55,0.13671875,0.107421875,0,0,32.02
+SUP177,Ivywood Fabrication,South Asia,India,Manufacturer,4,89.3,30,19,0.9691,0.0086,21497,Active,78,2,7,0.02564102564102564,0.08974358974358974,0,0,9.02
+SUP178,Marlowe Corporation (2),Middle East,Turkey,Manufacturer,4,79.5,60,45,0.9399,0.019,14377,Active,51,3,5,0.058823529411764705,0.09803921568627451,0,0,15.78
+SUP179,Timbergate Global,Europe,Poland,Manufacturer,4,79.7,60,20,0.9277,0.0185,24230,Active,108,5,7,0.046296296296296294,0.06481481481481481,0,0,15.72
+SUP180,Cedarwood Components (3),North America,Canada,Manufacturer,4,60.9,30,17,0.8447,0.0254,71072,Active,212,36,25,0.16981132075471697,0.1179245283018868,0,0,27.01
+SUP181,Kingsford Trading Co.,Europe,Poland,Manufacturer,5,96.9,30,11,0.9627,0.0078,22890,Active,28,1,3,0.03571428571428571,0.10714285714285714,0,0,4.35
+SUP182,Cedarwood Ltd.,Europe,Poland,Manufacturer,4,85.3,30,9,0.9584,0.0191,16794,Active,38,1,3,0.02631578947368421,0.07894736842105263,0,0,13.12
+SUP183,Kestrel Fabrication (2),South Asia,Bangladesh,Distributor,4,78.5,30,21,0.9094,0.0193,23655,Active,62,7,9,0.11290322580645161,0.14516129032258066,0,0,17.73
+SUP184,Highmoor Trading Co. (2),Southeast Asia,Vietnam,Manufacturer,4,71.0,45,21,0.9174,0.029,6887,Active,69,1,8,0.014492753623188406,0.11594202898550725,0,0,20.73
+SUP185,Foundry Row Components (2),Europe,Germany,Manufacturer,3,48.4,15,15,0.8387,0.0479,46938,Inactive,167,26,22,0.15568862275449102,0.1317365269461078,0,0,38.82
+SUP186,Cedarwood Holdings (2),North America,United States,Manufacturer,4,83.3,60,11,0.9595,0.0102,3810,Active,11,0,0,0.0,0.0,0,0,11.07
+SUP187,NorthPoint Corporation,Southeast Asia,Indonesia,Manufacturer,3,53.5,90,32,0.7848,0.0416,17841,Probation,14,3,3,0.21428571428571427,0.21428571428571427,1,0,37.94
+SUP188,Novagen Inc.,East Asia,China,Manufacturer,5,83.9,45,25,0.9398,0.0057,71203,Active,148,8,16,0.05405405405405406,0.10810810810810811,0,0,8.57
+SUP189,Vaultis Supply Co.,North America,Canada,Manufacturer,5,90.1,45,2,0.995,0.0071,42130,Active,29,0,1,0.0,0.034482758620689655,0,0,4.87
+SUP190,Ashgrove Components (3),Southeast Asia,Vietnam,Distributor,4,91.0,45,49,0.9346,0.0173,58622,Active,170,12,19,0.07058823529411765,0.11176470588235295,0,0,12.22
+SUP191,Everline Group,Latin America,Brazil,Manufacturer,3,57.9,30,44,0.8225,0.0402,27590,Active,223,43,29,0.19282511210762332,0.13004484304932734,0,0,35.01
+SUP192,Ashford Trading Co.,Southeast Asia,Vietnam,Wholesaler,3,53.6,30,64,0.8782,0.0355,114143,Probation,436,50,43,0.11467889908256881,0.09862385321100918,0,0,32.56
+SUP193,Ashgrove Ltd. (2),East Asia,China,Manufacturer,4,75.2,45,33,0.9249,0.0221,86112,Active,277,21,27,0.07581227436823104,0.09747292418772563,0,0,18.48
+SUP194,Ashford Corporation,Europe,Germany,Manufacturer,4,80.5,15,3,0.9551,0.0167,49665,Active,249,10,25,0.040160642570281124,0.10040160642570281,0,0,14.25
+SUP195,Sterling Global (2),East Asia,China,Manufacturer,3,34.5,60,49,0.8085,0.0531,86394,Probation,344,60,43,0.1744186046511628,0.125,0,1,45.33
+SUP196,Driftline Global,East Asia,South Korea,Manufacturer,4,72.6,30,34,0.929,0.0219,70473,Active,201,13,15,0.06467661691542288,0.07462686567164178,0,0,18.94
+SUP197,Quinlan Group,North America,United States,Manufacturer,3,38.4,30,16,0.8221,0.0519,17937,Inactive,116,13,23,0.11206896551724138,0.19827586206896552,0,1,42.58
+SUP198,Cedarwood Enterprises (2),Europe,Italy,Wholesaler,3,63.6,30,19,0.8961,0.0309,6339,Active,4,0,1,0.0,0.25,0,0,26.24
+SUP199,Everline Manufacturing (2),East Asia,South Korea,Manufacturer,4,73.1,90,40,0.9663,0.0245,48215,Active,91,1,7,0.01098901098901099,0.07692307692307693,0,0,17.7
+SUP200,Cedarwood Manufacturing,Southeast Asia,Vietnam,Distributor,3,39.7,30,62,0.844,0.0472,55715,Inactive,101,12,13,0.1188118811881188,0.12871287128712872,0,0,40.57
+SUP201,Vantage Industries (2),Europe,Germany,Manufacturer,3,47.2,30,15,0.8212,0.0405,104197,Probation,286,51,46,0.17832167832167833,0.16083916083916083,0,0,38.11
+SUP202,Meridian Enterprises,Middle East,Turkey,Manufacturer,4,69.4,30,31,0.9055,0.0243,10130,Active,14,2,1,0.14285714285714285,0.07142857142857142,0,0,22.26
+SUP203,Meridian Trading Co.,South Asia,Bangladesh,Manufacturer,3,61.4,45,33,0.8945,0.04,10484,Active,6,1,0,0.16666666666666666,0.0,0,0,31.72
+SUP204,Novagen Corporation,East Asia,China,Manufacturer,4,72.5,90,18,0.9316,0.0252,50457,Active,83,3,9,0.03614457831325301,0.10843373493975904,0,0,19.3
+SUP205,Meridian Components,East Asia,China,Manufacturer,4,93.4,30,52,0.9511,0.0118,27396,Active,56,3,2,0.05357142857142857,0.03571428571428571,0,0,9.46
+SUP206,Ironbridge Global (2),Southeast Asia,Vietnam,Contract Packager,4,84.7,60,20,0.9678,0.009,3399,Active,19,0,0,0.0,0.0,0,0,10.14
+SUP207,Rockford Enterprises,East Asia,China,Distributor,4,71.6,30,29,0.9216,0.0226,45770,Active,70,7,6,0.1,0.08571428571428572,0,0,20.13
+SUP208,Pacific Rim Industries (2),North America,Mexico,Contract Packager,4,87.6,45,11,0.995,0.0159,3532,Active,0,0,0,0.0,0.0,0,0,10.32
+SUP209,Silvertip Ltd.,East Asia,China,Manufacturer,5,77.4,15,21,0.9104,0.0198,10026,Active,19,0,0,0.0,0.0,0,0,13.97
+SUP210,Silvertip Inc.,South Asia,Bangladesh,Wholesaler,3,70.7,30,24,0.901,0.0171,140707,Active,267,19,24,0.07116104868913857,0.0898876404494382,0,0,21.61
+SUP211,Quinlan Global,North America,Mexico,Distributor,3,57.8,45,24,0.8357,0.0447,242465,Probation,841,123,102,0.14625445897740785,0.12128418549346016,0,0,35.14
+SUP212,Timbergate Supply Co.,North America,United States,Distributor,3,65.7,45,11,0.8861,0.0254,7347,Active,23,0,1,0.0,0.043478260869565216,0,0,24.49
+SUP213,Elmsworth Corporation (3),East Asia,South Korea,Contract Packager,4,71.5,30,39,0.8973,0.026,20357,Active,188,15,21,0.0797872340425532,0.11170212765957446,0,0,21.31
+SUP214,Sterling Holdings (2),Europe,Germany,Distributor,3,52.9,60,13,0.7931,0.0396,31226,Probation,204,47,29,0.23039215686274508,0.14215686274509803,1,0,37.66
+SUP215,Ashford Manufacturing,North America,Mexico,Wholesaler,4,85.8,90,12,0.9373,0.014,230593,Active,546,33,47,0.06043956043956044,0.08608058608058608,0,0,12.73
+SUP216,Ironbridge Ltd.,North America,Canada,Distributor,4,63.3,30,10,0.9072,0.0295,16868,Active,27,0,4,0.0,0.14814814814814814,0,0,23.2
+SUP217,Wrenfield Holdings (2),East Asia,China,Manufacturer,4,70.1,45,46,0.8805,0.0258,17181,Active,10,0,2,0.0,0.2,0,0,20.91
+SUP218,Highmoor Corporation (2),East Asia,China,Distributor,5,95.9,45,51,0.995,0.0014,176493,Active,733,3,51,0.004092769440654843,0.06957708049113233,0,0,1.77
+SUP219,Jasperline Components,Latin America,Brazil,Manufacturer,5,88.2,30,20,0.969,0.0067,19322,Active,83,2,5,0.024096385542168676,0.060240963855421686,0,0,6.35
+SUP220,Rockford Corporation,South Asia,India,Wholesaler,3,38.4,60,62,0.8235,0.056,68223,Probation,370,57,46,0.15405405405405406,0.12432432432432433,0,1,44.2
+SUP221,Fernway Corporation,Southeast Asia,Vietnam,Wholesaler,5,98.6,30,43,0.9839,0.001,5439,Active,11,1,0,0.09090909090909091,0.0,0,0,2.44
+SUP222,Fernway Industries,South Asia,India,Manufacturer,4,85.9,45,41,0.9804,0.0036,24418,Active,44,2,3,0.045454545454545456,0.06818181818181818,0,0,8.8
+SUP223,Sterling Supply Co.,North America,United States,Manufacturer,3,75.6,30,22,0.9043,0.0287,4409,Active,0,0,0,0.0,0.0,0,0,21.89
+SUP224,Amberton Ltd.,Latin America,Brazil,Manufacturer,4,74.7,30,49,0.9364,0.0216,8833,Active,12,0,2,0.0,0.16666666666666666,0,0,17.08
+SUP225,Foundry Row Manufacturing,Southeast Asia,Vietnam,Manufacturer,3,48.6,45,53,0.8422,0.0406,78048,Probation,762,121,105,0.15879265091863518,0.1377952755905512,0,0,36.9
+SUP226,Everline Trading Co. (2),Latin America,Brazil,Manufacturer,3,61.6,45,41,0.8701,0.0311,28074,Active,51,5,4,0.09803921568627451,0.0784313725490196,0,0,29.01
+SUP227,Calderon Components,East Asia,China,Distributor,3,52.3,60,41,0.8572,0.0374,20600,Probation,57,10,6,0.17543859649122806,0.10526315789473684,0,0,34.86
+SUP228,Elmsworth Fabrication,North America,United States,Distributor,4,83.2,90,18,0.9357,0.0146,12568,Active,19,4,1,0.21052631578947367,0.05263157894736842,1,0,15.96
+SUP229,Ironbridge Inc.,North America,United States,Wholesaler,4,67.9,30,20,0.9125,0.0275,23069,Active,3,0,0,0.0,0.0,0,0,21.19
+SUP230,Jasperline Enterprises (2),East Asia,China,Manufacturer,4,84.7,30,40,0.9836,0.013,42036,Active,7,0,1,0.0,0.14285714285714285,0,0,10.75
+SUP231,Delta Trading Co. (2),East Asia,China,Manufacturer,4,85.6,30,18,0.9374,0.0192,92075,Active,318,21,36,0.0660377358490566,0.11320754716981132,0,0,14.18
+SUP232,Jasperline Holdings (2),South Asia,India,Manufacturer,5,89.6,30,31,0.9681,0.0076,1453,Active,1,0,0,0.0,0.0,0,0,5.82
+SUP233,Calderon Enterprises,Middle East,Turkey,Wholesaler,1,17.2,30,27,0.7843,0.0619,11424,Inactive,112,25,22,0.22321428571428573,0.19642857142857142,1,1,59.06
+SUP234,Everline Trading Co. (3),North America,United States,Manufacturer,4,74.2,60,8,0.9365,0.0268,35702,Active,90,7,5,0.07777777777777778,0.05555555555555555,0,0,19.69
+SUP235,Vaultis Supply Co. (2),Latin America,Brazil,Manufacturer,5,85.9,45,43,0.9503,0.0129,26537,Active,98,3,13,0.030612244897959183,0.1326530612244898,0,0,9.16
+SUP236,Ironbridge Trading Co.,Europe,Germany,Manufacturer,5,86.9,15,2,0.9198,0.006,47282,Active,173,9,20,0.05202312138728324,0.11560693641618497,0,0,8.22
+SUP237,Dunmore Group,South Asia,India,Wholesaler,4,80.6,30,34,0.961,0.0117,40444,Active,161,4,20,0.024844720496894408,0.12422360248447205,0,0,12.59
+SUP238,Ashford Inc.,Europe,Germany,Manufacturer,3,57.7,45,6,0.8163,0.0406,20940,Active,66,9,6,0.13636363636363635,0.09090909090909091,0,0,34.48
+SUP239,Cedarwood Group,East Asia,China,Distributor,4,62.2,30,33,0.9399,0.0274,16222,Active,39,3,3,0.07692307692307693,0.07692307692307693,0,0,23.35
+SUP240,Ironbridge Fabrication (2),East Asia,China,Distributor,5,97.1,30,32,0.9825,0.002,22419,Active,25,0,2,0.0,0.08,0,0,1.81
+SUP241,Comet Enterprises,Europe,Germany,Distributor,2,25.8,30,23,0.8003,0.0581,111419,Probation,384,67,45,0.17447916666666666,0.1171875,0,1,51.89
+SUP242,Vantage Inc. (2),Europe,Germany,Manufacturer,4,90.8,30,8,0.9302,0.0131,12813,Active,28,2,3,0.07142857142857142,0.10714285714285714,0,0,11.35
+SUP243,Silvertip Inc. (2),Southeast Asia,Vietnam,Manufacturer,4,79.2,30,38,0.9045,0.0133,27661,Active,2,0,0,0.0,0.0,0,0,14.45
+SUP244,Timbergate Industries,South Asia,Bangladesh,Manufacturer,4,84.4,45,36,0.9422,0.0157,36711,Active,51,1,3,0.0196078431372549,0.058823529411764705,0,0,12.84
+SUP245,Quinlan Holdings (2),North America,United States,Manufacturer,3,59.8,30,14,0.8772,0.0319,178868,Active,626,64,77,0.10223642172523961,0.12300319488817892,0,0,29.64
+SUP246,Comet Industries,Europe,Italy,Distributor,3,57.7,45,19,0.856,0.0385,21050,Active,40,8,2,0.2,0.05,0,0,33.92
+SUP247,Everline Fabrication,North America,United States,Manufacturer,4,79.9,45,6,0.9248,0.0232,89557,Active,346,22,27,0.06358381502890173,0.07803468208092486,0,0,17.16
+SUP248,Jasperline Trading Co.,South Asia,India,Manufacturer,4,85.8,60,35,0.995,0.0102,122612,Active,163,0,15,0.0,0.09202453987730061,0,0,9.44
+SUP249,Harborlight Group (2),Southeast Asia,Indonesia,Manufacturer,2,31.9,30,23,0.7976,0.0575,27631,Probation,104,15,14,0.14423076923076922,0.1346153846153846,0,1,49.53
+SUP250,Delta Components,South Asia,India,Distributor,4,72.6,30,51,0.9431,0.0219,23334,Active,132,6,11,0.045454545454545456,0.08333333333333333,0,0,18.3
+SUP251,Amberton Global,North America,United States,Manufacturer,4,87.4,30,10,0.9669,0.0106,20365,Active,77,5,5,0.06493506493506493,0.06493506493506493,0,0,10.73
+SUP252,Meridian Supply Co.,Europe,Italy,Distributor,2,31.6,30,20,0.8104,0.0599,22155,Inactive,8,1,0,0.125,0.0,0,1,49.61
+SUP253,Vantage Industries (3),South Asia,India,Manufacturer,5,86.5,30,58,0.9394,0.0139,79410,Active,130,3,15,0.023076923076923078,0.11538461538461539,0,0,9.39
+SUP254,Highmoor Corporation (3),Southeast Asia,Vietnam,Contract Packager,2,37.6,45,48,0.7456,0.0536,38780,Inactive,82,17,15,0.2073170731707317,0.18292682926829268,1,1,49.09
+SUP255,Harborlight Corporation,Southeast Asia,Vietnam,Distributor,1,15.2,30,21,0.7491,0.0628,38971,Probation,114,24,16,0.21052631578947367,0.14035087719298245,1,1,60.57
+SUP256,Ashgrove Group (4),North America,Canada,Manufacturer,3,50.4,15,16,0.8784,0.0404,8152,Active,62,7,6,0.11290322580645161,0.0967741935483871,0,0,34.71
+SUP257,Driftline Global (2),Europe,Germany,Manufacturer,3,45.4,30,15,0.8238,0.0408,9773,Probation,2,0,0,0.0,0.0,0,0,35.98
+SUP258,Novagen Enterprises (2),East Asia,China,Manufacturer,3,61.3,45,43,0.8665,0.0389,349746,Active,920,105,124,0.11413043478260869,0.13478260869565217,0,0,31.38
+SUP259,Vaultis Holdings,East Asia,China,Manufacturer,5,94.5,60,22,0.9544,0.0059,24234,Active,78,1,6,0.01282051282051282,0.07692307692307693,0,0,4.46
+SUP260,Rockford Group (2),North America,United States,Manufacturer,5,96.9,45,8,0.995,0.0052,12198,Active,4,0,0,0.0,0.0,0,0,2.35
+SUP261,Ironbridge Group,East Asia,China,Wholesaler,5,87.9,45,55,0.9829,0.0147,154163,Active,322,6,26,0.018633540372670808,0.08074534161490683,0,0,8.01
+SUP262,Everline Components,Europe,Germany,Distributor,3,50.5,45,15,0.8507,0.0396,41113,Probation,87,7,11,0.08045977011494253,0.12643678160919541,0,0,34.69
+SUP263,Jasperline Manufacturing,Southeast Asia,Vietnam,Manufacturer,4,77.5,45,44,0.9515,0.0096,57808,Active,54,0,3,0.0,0.05555555555555555,0,0,12.86
+SUP264,Ashford Fabrication,East Asia,China,Distributor,4,89.7,30,27,0.9459,0.0171,25368,Active,106,7,16,0.0660377358490566,0.1509433962264151,0,0,12.21
+SUP265,Larkspur Components,Latin America,Brazil,Manufacturer,5,100.0,45,20,0.9763,0.0038,20610,Active,17,0,1,0.0,0.058823529411764705,0,0,1.54
+SUP266,Amberton Inc. (2),East Asia,China,Contract Packager,4,64.6,45,46,0.8594,0.0304,24464,Active,39,6,5,0.15384615384615385,0.1282051282051282,0,0,26.54
+SUP267,Marlowe Corporation (3),Southeast Asia,Vietnam,Manufacturer,4,72.2,30,22,0.8588,0.0234,6062,Active,8,1,0,0.125,0.0,0,0,22.1
+SUP268,Novagen Fabrication (2),East Asia,China,Distributor,4,71.1,45,22,0.9148,0.0235,26873,Active,6,2,0,0.3333333333333333,0.0,1,0,24.18
+SUP269,Quinlan Components,East Asia,China,Wholesaler,4,62.1,30,30,0.9074,0.0228,41791,Active,36,1,2,0.027777777777777776,0.05555555555555555,0,0,22.3
+SUP270,Silvertip Holdings,East Asia,China,Manufacturer,3,54.1,45,21,0.8881,0.0351,249704,Active,619,55,65,0.0888529886914378,0.1050080775444265,0,0,31.68
+SUP271,Vantage Industries (4),East Asia,China,Manufacturer,4,65.8,15,35,0.9349,0.0263,32823,Active,54,4,5,0.07407407407407407,0.09259259259259259,0,0,22.07
+SUP272,Everline Supply Co.,East Asia,South Korea,Manufacturer,2,39.0,45,48,0.8613,0.0418,2030,Inactive,0,0,0,0.0,0.0,0,1,39.72
+SUP273,Foundry Row Manufacturing (2),East Asia,China,Wholesaler,3,58.8,60,57,0.8306,0.0371,26687,Probation,4,1,0,0.25,0.0,1,0,34.62
+SUP274,Vaultis Manufacturing,North America,United States,Manufacturer,2,31.8,30,19,0.7821,0.0548,694141,Inactive,2322,471,331,0.20284237726098192,0.1425495262704565,1,1,50.15
+SUP275,Harborlight Enterprises,North America,Mexico,Distributor,4,91.5,30,4,0.9707,0.005,80525,Active,352,8,28,0.022727272727272728,0.07954545454545454,0,0,7.37
+SUP276,Calderon Inc.,South Asia,India,Wholesaler,2,36.0,15,40,0.8587,0.0495,11702,Probation,9,1,3,0.1111111111111111,0.3333333333333333,0,1,44.27
+SUP277,Timbergate Supply Co. (2),Southeast Asia,Vietnam,Wholesaler,3,49.0,15,53,0.8738,0.0413,58675,Probation,52,5,8,0.09615384615384616,0.15384615384615385,0,0,35.22
+SUP278,Ashford Trading Co. (2),South Asia,Bangladesh,Manufacturer,4,96.2,90,32,0.9901,0.0063,12666,Active,4,0,0,0.0,0.0,0,0,5.46
+SUP279,Kingsford Manufacturing (3),Europe,Italy,Manufacturer,4,78.9,30,14,0.9213,0.0172,6267,Active,25,2,3,0.08,0.12,0,0,16.3
+SUP280,Pacific Rim Industries (3),Europe,Italy,Distributor,4,72.4,30,12,0.8863,0.0247,19918,Active,1,0,0,0.0,0.0,0,0,19.8
+SUP281,Vaultis Group (2),East Asia,China,Manufacturer,4,44.6,30,35,0.8473,0.0424,33033,Inactive,141,28,23,0.19858156028368795,0.16312056737588654,0,0,36.52
+SUP282,Kestrel Industries,East Asia,South Korea,Wholesaler,5,90.7,90,15,0.9451,0.0098,3453,Active,34,0,4,0.0,0.11764705882352941,0,0,6.61
+SUP283,Vaultis Ltd. (3),Southeast Asia,Vietnam,Manufacturer,4,75.9,30,26,0.9316,0.0203,7930,Active,2,0,1,0.0,0.5,0,0,16.51
+SUP284,Calderon Group,Southeast Asia,Vietnam,Manufacturer,3,40.2,45,36,0.8371,0.0409,30088,Probation,98,17,10,0.17346938775510204,0.10204081632653061,0,0,39.84
+SUP285,Wrenfield Inc.,North America,United States,Wholesaler,3,44.9,30,20,0.8651,0.0454,18594,Probation,31,3,1,0.0967741935483871,0.03225806451612903,0,0,37.7
+SUP286,Vaultis Corporation (2),South Asia,India,Manufacturer,5,91.3,15,34,0.957,0.0078,46818,Active,37,0,3,0.0,0.08108108108108109,0,0,5.64
+SUP287,Graystone Group (2),East Asia,China,Manufacturer,3,48.3,45,58,0.8062,0.0391,7355,Probation,0,0,0,0.0,0.0,0,0,35.13
+SUP288,Ashgrove Ltd. (3),Southeast Asia,Indonesia,Manufacturer,1,13.1,15,37,0.7486,0.0743,67591,Probation,318,62,60,0.1949685534591195,0.18867924528301888,0,1,63.85
+SUP289,Elmsworth Manufacturing,South Asia,Bangladesh,Manufacturer,3,54.9,45,37,0.8445,0.0386,7621,Probation,20,5,2,0.25,0.1,1,0,35.82
+SUP290,Fernway Holdings,East Asia,China,Wholesaler,3,44.0,30,33,0.8535,0.0334,196643,Probation,413,62,46,0.15012106537530268,0.11138014527845036,0,0,36.06
+SUP291,Everline Enterprises,Europe,Germany,Manufacturer,4,54.1,45,24,0.8659,0.036,4133,Active,1,0,0,0.0,0.0,0,0,28.62
+SUP292,Cedarwood Enterprises (3),East Asia,China,Manufacturer,4,73.4,45,29,0.9026,0.0274,8464,Active,201,20,21,0.09950248756218906,0.1044776119402985,0,0,21.26
+SUP293,Silvertip Inc. (3),Latin America,Brazil,Manufacturer,4,70.4,45,24,0.9156,0.0253,48049,Active,48,3,4,0.0625,0.08333333333333333,0,0,20.75
+SUP294,Palisade Enterprises (2),East Asia,China,Contract Packager,3,52.3,15,36,0.8343,0.0383,201565,Active,605,91,87,0.15041322314049588,0.14380165289256197,0,0,35.28
+SUP295,NorthPoint Inc.,Europe,Italy,Manufacturer,4,93.3,45,18,0.9583,0.0052,42715,Active,324,24,28,0.07407407407407407,0.08641975308641975,0,0,7.96
+SUP296,Everline Manufacturing (3),Europe,Poland,Contract Packager,2,33.8,90,20,0.7997,0.0523,56800,Inactive,94,19,14,0.20212765957446807,0.14893617021276595,1,1,48.47
+SUP297,Larkspur Fabrication,Middle East,Turkey,Wholesaler,3,46.5,30,47,0.8135,0.0464,30338,Probation,116,19,17,0.16379310344827586,0.14655172413793102,0,0,39.77
+SUP298,Brightfield Ltd.,Europe,Germany,Manufacturer,2,26.5,30,26,0.7458,0.0536,9133,Inactive,13,1,0,0.07692307692307693,0.0,0,1,50.46
+SUP299,Calderon Corporation,Europe,Germany,Wholesaler,4,72.1,60,10,0.9279,0.0212,16922,Active,37,5,4,0.13513513513513514,0.10810810810810811,0,0,20.0
+SUP300,Comet Supply Co.,North America,United States,Distributor,5,86.5,30,16,0.9805,0.014,7378,Active,2,0,0,0.0,0.0,0,0,8.04
