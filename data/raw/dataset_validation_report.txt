@@ -1,0 +1,166 @@
+==============================================================================
+AMAZON SUPPLY CHAIN INTELLIGENCE & INVENTORY OPTIMIZATION PLATFORM
+Synthetic Dataset -- Validation Report
+Generated: 2026-08-30 01:15 UTC
+Random seed: 42 (fully reproducible)
+==============================================================================
+
+NOTE: This dataset is entirely synthetic. It does not contain, represent,
+or derive from real Amazon internal data of any kind.
+
+------------------------------------------------------------------------------
+1. TABLE PROFILES (row count, column count, nulls, duplicates)
+------------------------------------------------------------------------------
+
+  Table: products
+    Row count       : 5,000
+    Column count    : 15
+    Null: shelf_life_days                   3,460 (expected)
+    [PASS] No fully-duplicate rows (0 found)
+    [PASS] Primary key 'product_id' is unique (0 duplicates found)
+
+  Table: suppliers
+    Row count       : 300
+    Column count    : 13
+    Null counts     : none
+    [PASS] No fully-duplicate rows (0 found)
+    [PASS] Primary key 'supplier_id' is unique (0 duplicates found)
+
+  Table: warehouses
+    Row count       : 12
+    Column count    : 11
+    Null counts     : none
+    [PASS] No fully-duplicate rows (0 found)
+    [PASS] Primary key 'warehouse_id' is unique (0 duplicates found)
+
+  Table: inventory_snapshots
+    Row count       : 3,120,000
+    Column count    : 11
+    Null counts     : none
+    [PASS] No fully-duplicate rows (0 found)
+
+  Table: sales_orders
+    Row count       : 300,000
+    Column count    : 10
+    Null: delivery_actual_date             35,459 (expected)
+    [PASS] No fully-duplicate rows (0 found)
+    [PASS] Primary key 'order_id' is unique (0 duplicates found)
+
+  Table: sales_order_items
+    Row count       : 570,122
+    Column count    : 9
+    Null counts     : none
+    [PASS] No fully-duplicate rows (0 found)
+    [PASS] Primary key 'order_item_id' is unique (0 duplicates found)
+
+  Table: purchase_orders
+    Row count       : 60,000
+    Column count    : 11
+    Null: actual_delivery_date              4,888 (expected)
+    [PASS] No fully-duplicate rows (0 found)
+    [PASS] Primary key 'purchase_order_id' is unique (0 duplicates found)
+
+  Table: demand_forecasts
+    Row count       : 149,986
+    Column count    : 8
+    Null counts     : none
+    [PASS] No fully-duplicate rows (0 found)
+
+------------------------------------------------------------------------------
+2. FOREIGN KEY INTEGRITY (orphan checks)
+------------------------------------------------------------------------------
+
+    [PASS] products.supplier_id -> no orphans (0 found)
+    [PASS] inventory_snapshots.product_id -> no orphans (0 found)
+    [PASS] inventory_snapshots.warehouse_id -> no orphans (0 found)
+    [PASS] sales_orders.warehouse_id -> no orphans (0 found)
+    [PASS] sales_order_items.order_id -> no orphans (0 found)
+    [PASS] sales_order_items.product_id -> no orphans (0 found)
+    [PASS] purchase_orders.supplier_id -> no orphans (0 found)
+    [PASS] purchase_orders.warehouse_id -> no orphans (0 found)
+    [PASS] demand_forecasts.product_id -> no orphans (0 found)
+    [PASS] demand_forecasts.warehouse_id -> no orphans (0 found)
+
+------------------------------------------------------------------------------
+3. BUSINESS RULE & MATHEMATICAL CONSISTENCY CHECKS
+------------------------------------------------------------------------------
+
+  products.csv
+    [PASS] selling_price > unit_cost for all rows
+    [PASS] unit_cost > 0 for all rows
+    [PASS] no negative minimum_order_quantity
+    [PASS] launch_date within 2024-01-01..2026-06-30
+    [PASS] is_seasonal share in 15-20% (actual 17.5%)
+    [PASS] Discontinued share in 5-10% (actual 7.0%)
+
+  suppliers.csv
+    [PASS] quality_rating within [1,5]
+    [PASS] reliability_score within [0,100]
+    [PASS] on_time_delivery_rate within [0.70,0.99] (tolerant band)
+    [PASS] defect_rate within [0.001,0.09] (tolerant band)
+
+  inventory_snapshots.csv
+    [PASS] ending_inventory_units == opening+inbound-outbound-damaged+adjustment (max diff 0)
+    [PASS] no negative values in opening_inventory_units
+    [PASS] no negative values in inbound_units
+    [PASS] no negative values in outbound_units
+    [PASS] no negative values in damaged_units
+    [PASS] no negative values in ending_inventory_units
+    [PASS] stockout_flag == 1 exactly when ending_inventory_units == 0
+    [PASS] inventory_value ~= ending_units x unit_cost (max abs diff 0.00)
+
+  sales_orders.csv / sales_order_items.csv
+    [PASS] order_date within 2025-01-01..2026-12-31
+    [PASS] delivery_promised_date >= order_date
+    [PASS] delivery_actual_date >= order_date (where present)
+    [PASS] delivery_actual_date only present for Delivered/Returned orders
+    [PASS] returned_quantity <= quantity
+    [PASS] quantity > 0 for all order items
+    [PASS] no negative sales_amount / cost_amount
+    [PASS] sales_amount == qty x unit_price x (1-discount) (max abs diff 0.0000)
+    [PASS] total_order_value == sum of item sales_amount per order (max abs diff 0.0000)
+
+  purchase_orders.csv
+    [PASS] expected_delivery_date >= order_date
+    [PASS] received_units <= ordered_units
+    [PASS] no negative ordered_units / received_units
+    [PASS] purchase_value == ordered_units x unit_cost (max abs diff 0.0000)
+
+  demand_forecasts.csv
+    [PASS] forecast_demand_units >= 0
+    [PASS] actual_demand_units >= 0
+    [PASS] forecast_lower_bound <= forecast_upper_bound
+    [PASS] forecast_horizon_days in {7,14,30,60}
+    [PASS] actual demand generally within forecast bounds (actual 73.3%, not 100%)
+
+------------------------------------------------------------------------------
+4. REALISM SIGNALS (informational -- confirms the dataset behaves like one
+   connected system rather than independently randomized tables)
+------------------------------------------------------------------------------
+
+  Stockout rate, Discontinued products : 5.5%
+  Stockout rate, Active products       : 2.9%  (Discontinued is 1.9x higher, as expected)
+  Highest-stockout warehouse            : WH09 (4.2%)
+  Lowest-stockout warehouse             : WH05 (1.9%)
+  Corr(supplier on-time rate, PO partial/cancel rate): -0.07 (negative expected)
+  Avg weekly outbound units, BFCM week (2026-11-30)   : 0.71
+  Avg weekly outbound units, typical week (2026-09-14): 0.34  (BFCM is 2.1x higher, seasonality confirmed)
+
+==============================================================================
+5. SUMMARY
+==============================================================================
+
+Table                           Rows   Columns
+products                       5,000        15
+suppliers                        300        13
+warehouses                        12        11
+inventory_snapshots        3,120,000        11
+sales_orders                 300,000        10
+sales_order_items            570,122         9
+purchase_orders               60,000        11
+demand_forecasts             149,986         8
+
+TOTAL RECORDS: 4,205,420
+
+OVERALL VALIDATION STATUS: PASS
+==============================================================================
