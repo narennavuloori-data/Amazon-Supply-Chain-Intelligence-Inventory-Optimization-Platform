@@ -1,0 +1,401 @@
+forecast_week,warehouse_id,product_id,product_name,forecast_units,selected_model,model_accuracy
+2027-01-04,WH09,P02401,Silverpine Series 2 Water Flosser,93.75,Moving Average,66.87
+2027-01-11,WH09,P02401,Silverpine Series 2 Water Flosser,98.19,Moving Average,66.87
+2027-01-18,WH09,P02401,Silverpine Series 2 Water Flosser,100.98,Moving Average,66.87
+2027-01-25,WH09,P02401,Silverpine Series 2 Water Flosser,89.23,Moving Average,66.87
+2027-02-01,WH09,P02401,Silverpine Series 2 Water Flosser,95.54,Moving Average,66.87
+2027-02-08,WH09,P02401,Silverpine Series 2 Water Flosser,95.99,Moving Average,66.87
+2027-02-15,WH09,P02401,Silverpine Series 2 Water Flosser,95.43,Moving Average,66.87
+2027-02-22,WH09,P02401,Silverpine Series 2 Water Flosser,94.05,Moving Average,66.87
+2027-01-04,WH03,P02401,Silverpine Series 2 Water Flosser,87.58,Random Forest,82.46
+2027-01-11,WH03,P02401,Silverpine Series 2 Water Flosser,69.28,Random Forest,82.46
+2027-01-18,WH03,P02401,Silverpine Series 2 Water Flosser,72.5,Random Forest,82.46
+2027-01-25,WH03,P02401,Silverpine Series 2 Water Flosser,70.68,Random Forest,82.46
+2027-02-01,WH03,P02401,Silverpine Series 2 Water Flosser,68.59,Random Forest,82.46
+2027-02-08,WH03,P02401,Silverpine Series 2 Water Flosser,65.97,Random Forest,82.46
+2027-02-15,WH03,P02401,Silverpine Series 2 Water Flosser,65.23,Random Forest,82.46
+2027-02-22,WH03,P02401,Silverpine Series 2 Water Flosser,68.43,Random Forest,82.46
+2027-01-04,WH04,P02401,Silverpine Series 2 Water Flosser,65.14,Exponential Smoothing,58.15
+2027-01-11,WH04,P02401,Silverpine Series 2 Water Flosser,65.14,Exponential Smoothing,58.15
+2027-01-18,WH04,P02401,Silverpine Series 2 Water Flosser,65.14,Exponential Smoothing,58.15
+2027-01-25,WH04,P02401,Silverpine Series 2 Water Flosser,65.14,Exponential Smoothing,58.15
+2027-02-01,WH04,P02401,Silverpine Series 2 Water Flosser,65.14,Exponential Smoothing,58.15
+2027-02-08,WH04,P02401,Silverpine Series 2 Water Flosser,65.14,Exponential Smoothing,58.15
+2027-02-15,WH04,P02401,Silverpine Series 2 Water Flosser,65.14,Exponential Smoothing,58.15
+2027-02-22,WH04,P02401,Silverpine Series 2 Water Flosser,65.14,Exponential Smoothing,58.15
+2027-01-04,WH01,P02401,Silverpine Series 2 Water Flosser,69.25,Moving Average,74.6
+2027-01-11,WH01,P02401,Silverpine Series 2 Water Flosser,70.06,Moving Average,74.6
+2027-01-18,WH01,P02401,Silverpine Series 2 Water Flosser,72.58,Moving Average,74.6
+2027-01-25,WH01,P02401,Silverpine Series 2 Water Flosser,65.72,Moving Average,74.6
+2027-02-01,WH01,P02401,Silverpine Series 2 Water Flosser,69.4,Moving Average,74.6
+2027-02-08,WH01,P02401,Silverpine Series 2 Water Flosser,69.44,Moving Average,74.6
+2027-02-15,WH01,P02401,Silverpine Series 2 Water Flosser,69.29,Moving Average,74.6
+2027-02-22,WH01,P02401,Silverpine Series 2 Water Flosser,68.46,Moving Average,74.6
+2027-01-04,WH02,P02401,Silverpine Series 2 Water Flosser,77.5,Moving Average,68.52
+2027-01-11,WH02,P02401,Silverpine Series 2 Water Flosser,79.62,Moving Average,68.52
+2027-01-18,WH02,P02401,Silverpine Series 2 Water Flosser,69.28,Moving Average,68.52
+2027-01-25,WH02,P02401,Silverpine Series 2 Water Flosser,67.85,Moving Average,68.52
+2027-02-01,WH02,P02401,Silverpine Series 2 Water Flosser,73.56,Moving Average,68.52
+2027-02-08,WH02,P02401,Silverpine Series 2 Water Flosser,72.58,Moving Average,68.52
+2027-02-15,WH02,P02401,Silverpine Series 2 Water Flosser,70.82,Moving Average,68.52
+2027-02-22,WH02,P02401,Silverpine Series 2 Water Flosser,71.2,Moving Average,68.52
+2027-01-04,WH05,P02401,Silverpine Series 2 Water Flosser,64.24,Random Forest,85.31
+2027-01-11,WH05,P02401,Silverpine Series 2 Water Flosser,57.98,Random Forest,85.31
+2027-01-18,WH05,P02401,Silverpine Series 2 Water Flosser,66.3,Random Forest,85.31
+2027-01-25,WH05,P02401,Silverpine Series 2 Water Flosser,62.14,Random Forest,85.31
+2027-02-01,WH05,P02401,Silverpine Series 2 Water Flosser,56.95,Random Forest,85.31
+2027-02-08,WH05,P02401,Silverpine Series 2 Water Flosser,63.95,Random Forest,85.31
+2027-02-15,WH05,P02401,Silverpine Series 2 Water Flosser,61.52,Random Forest,85.31
+2027-02-22,WH05,P02401,Silverpine Series 2 Water Flosser,60.72,Random Forest,85.31
+2027-01-04,WH06,P02401,Silverpine Series 2 Water Flosser,68.16,Random Forest,82.3
+2027-01-11,WH06,P02401,Silverpine Series 2 Water Flosser,52.01,Random Forest,82.3
+2027-01-18,WH06,P02401,Silverpine Series 2 Water Flosser,56.93,Random Forest,82.3
+2027-01-25,WH06,P02401,Silverpine Series 2 Water Flosser,52.28,Random Forest,82.3
+2027-02-01,WH06,P02401,Silverpine Series 2 Water Flosser,56.24,Random Forest,82.3
+2027-02-08,WH06,P02401,Silverpine Series 2 Water Flosser,54.16,Random Forest,82.3
+2027-02-15,WH06,P02401,Silverpine Series 2 Water Flosser,57.5,Random Forest,82.3
+2027-02-22,WH06,P02401,Silverpine Series 2 Water Flosser,54.15,Random Forest,82.3
+2027-01-04,WH10,P02401,Silverpine Series 2 Water Flosser,35.7,Random Forest,31.69
+2027-01-11,WH10,P02401,Silverpine Series 2 Water Flosser,38.12,Random Forest,31.69
+2027-01-18,WH10,P02401,Silverpine Series 2 Water Flosser,50.97,Random Forest,31.69
+2027-01-25,WH10,P02401,Silverpine Series 2 Water Flosser,36.96,Random Forest,31.69
+2027-02-01,WH10,P02401,Silverpine Series 2 Water Flosser,30.49,Random Forest,31.69
+2027-02-08,WH10,P02401,Silverpine Series 2 Water Flosser,32.08,Random Forest,31.69
+2027-02-15,WH10,P02401,Silverpine Series 2 Water Flosser,29.65,Random Forest,31.69
+2027-02-22,WH10,P02401,Silverpine Series 2 Water Flosser,33.93,Random Forest,31.69
+2027-01-04,WH08,P02401,Silverpine Series 2 Water Flosser,40.56,Exponential Smoothing,70.15
+2027-01-11,WH08,P02401,Silverpine Series 2 Water Flosser,40.56,Exponential Smoothing,70.15
+2027-01-18,WH08,P02401,Silverpine Series 2 Water Flosser,40.56,Exponential Smoothing,70.15
+2027-01-25,WH08,P02401,Silverpine Series 2 Water Flosser,40.56,Exponential Smoothing,70.15
+2027-02-01,WH08,P02401,Silverpine Series 2 Water Flosser,40.56,Exponential Smoothing,70.15
+2027-02-08,WH08,P02401,Silverpine Series 2 Water Flosser,40.56,Exponential Smoothing,70.15
+2027-02-15,WH08,P02401,Silverpine Series 2 Water Flosser,40.56,Exponential Smoothing,70.15
+2027-02-22,WH08,P02401,Silverpine Series 2 Water Flosser,40.56,Exponential Smoothing,70.15
+2027-01-04,WH12,P02401,Silverpine Series 2 Water Flosser,30.59,Exponential Smoothing,13.92
+2027-01-11,WH12,P02401,Silverpine Series 2 Water Flosser,30.59,Exponential Smoothing,13.92
+2027-01-18,WH12,P02401,Silverpine Series 2 Water Flosser,30.59,Exponential Smoothing,13.92
+2027-01-25,WH12,P02401,Silverpine Series 2 Water Flosser,30.59,Exponential Smoothing,13.92
+2027-02-01,WH12,P02401,Silverpine Series 2 Water Flosser,30.59,Exponential Smoothing,13.92
+2027-02-08,WH12,P02401,Silverpine Series 2 Water Flosser,30.59,Exponential Smoothing,13.92
+2027-02-15,WH12,P02401,Silverpine Series 2 Water Flosser,30.59,Exponential Smoothing,13.92
+2027-02-22,WH12,P02401,Silverpine Series 2 Water Flosser,30.59,Exponential Smoothing,13.92
+2027-01-04,WH11,P02401,Silverpine Series 2 Water Flosser,42.0,Moving Average,55.79
+2027-01-11,WH11,P02401,Silverpine Series 2 Water Flosser,47.75,Moving Average,55.79
+2027-01-18,WH11,P02401,Silverpine Series 2 Water Flosser,49.69,Moving Average,55.79
+2027-01-25,WH11,P02401,Silverpine Series 2 Water Flosser,40.61,Moving Average,55.79
+2027-02-01,WH11,P02401,Silverpine Series 2 Water Flosser,45.01,Moving Average,55.79
+2027-02-08,WH11,P02401,Silverpine Series 2 Water Flosser,45.76,Moving Average,55.79
+2027-02-15,WH11,P02401,Silverpine Series 2 Water Flosser,45.27,Moving Average,55.79
+2027-02-22,WH11,P02401,Silverpine Series 2 Water Flosser,44.16,Moving Average,55.79
+2027-01-04,WH09,P04119,Willowbrook Ultra USB-C Hub,13.34,Random Forest,68.1
+2027-01-11,WH09,P04119,Willowbrook Ultra USB-C Hub,15.4,Random Forest,68.1
+2027-01-18,WH09,P04119,Willowbrook Ultra USB-C Hub,17.37,Random Forest,68.1
+2027-01-25,WH09,P04119,Willowbrook Ultra USB-C Hub,16.65,Random Forest,68.1
+2027-02-01,WH09,P04119,Willowbrook Ultra USB-C Hub,16.78,Random Forest,68.1
+2027-02-08,WH09,P04119,Willowbrook Ultra USB-C Hub,17.08,Random Forest,68.1
+2027-02-15,WH09,P04119,Willowbrook Ultra USB-C Hub,16.39,Random Forest,68.1
+2027-02-22,WH09,P04119,Willowbrook Ultra USB-C Hub,16.96,Random Forest,68.1
+2027-01-04,WH02,P04119,Willowbrook Ultra USB-C Hub,16.11,Random Forest,57.27
+2027-01-11,WH02,P04119,Willowbrook Ultra USB-C Hub,16.32,Random Forest,57.27
+2027-01-18,WH02,P04119,Willowbrook Ultra USB-C Hub,13.47,Random Forest,57.27
+2027-01-25,WH02,P04119,Willowbrook Ultra USB-C Hub,9.3,Random Forest,57.27
+2027-02-01,WH02,P04119,Willowbrook Ultra USB-C Hub,10.48,Random Forest,57.27
+2027-02-08,WH02,P04119,Willowbrook Ultra USB-C Hub,12.2,Random Forest,57.27
+2027-02-15,WH02,P04119,Willowbrook Ultra USB-C Hub,13.31,Random Forest,57.27
+2027-02-22,WH02,P04119,Willowbrook Ultra USB-C Hub,14.75,Random Forest,57.27
+2027-01-04,WH03,P04119,Willowbrook Ultra USB-C Hub,10.42,Random Forest,0.0
+2027-01-11,WH03,P04119,Willowbrook Ultra USB-C Hub,11.71,Random Forest,0.0
+2027-01-18,WH03,P04119,Willowbrook Ultra USB-C Hub,14.74,Random Forest,0.0
+2027-01-25,WH03,P04119,Willowbrook Ultra USB-C Hub,15.68,Random Forest,0.0
+2027-02-01,WH03,P04119,Willowbrook Ultra USB-C Hub,16.58,Random Forest,0.0
+2027-02-08,WH03,P04119,Willowbrook Ultra USB-C Hub,14.05,Random Forest,0.0
+2027-02-15,WH03,P04119,Willowbrook Ultra USB-C Hub,10.91,Random Forest,0.0
+2027-02-22,WH03,P04119,Willowbrook Ultra USB-C Hub,10.01,Random Forest,0.0
+2027-01-04,WH01,P04119,Willowbrook Ultra USB-C Hub,13.5,Moving Average,64.61
+2027-01-11,WH01,P04119,Willowbrook Ultra USB-C Hub,14.38,Moving Average,64.61
+2027-01-18,WH01,P04119,Willowbrook Ultra USB-C Hub,13.72,Moving Average,64.61
+2027-01-25,WH01,P04119,Willowbrook Ultra USB-C Hub,14.4,Moving Average,64.61
+2027-02-01,WH01,P04119,Willowbrook Ultra USB-C Hub,14.0,Moving Average,64.61
+2027-02-08,WH01,P04119,Willowbrook Ultra USB-C Hub,14.12,Moving Average,64.61
+2027-02-15,WH01,P04119,Willowbrook Ultra USB-C Hub,14.06,Moving Average,64.61
+2027-02-22,WH01,P04119,Willowbrook Ultra USB-C Hub,14.14,Moving Average,64.61
+2027-01-04,WH07,P02401,Silverpine Series 2 Water Flosser,16.62,Exponential Smoothing,69.41
+2027-01-11,WH07,P02401,Silverpine Series 2 Water Flosser,16.62,Exponential Smoothing,69.41
+2027-01-18,WH07,P02401,Silverpine Series 2 Water Flosser,16.62,Exponential Smoothing,69.41
+2027-01-25,WH07,P02401,Silverpine Series 2 Water Flosser,16.62,Exponential Smoothing,69.41
+2027-02-01,WH07,P02401,Silverpine Series 2 Water Flosser,16.62,Exponential Smoothing,69.41
+2027-02-08,WH07,P02401,Silverpine Series 2 Water Flosser,16.62,Exponential Smoothing,69.41
+2027-02-15,WH07,P02401,Silverpine Series 2 Water Flosser,16.62,Exponential Smoothing,69.41
+2027-02-22,WH07,P02401,Silverpine Series 2 Water Flosser,16.62,Exponential Smoothing,69.41
+2027-01-04,WH05,P04119,Willowbrook Ultra USB-C Hub,12.87,Random Forest,0.0
+2027-01-11,WH05,P04119,Willowbrook Ultra USB-C Hub,10.05,Random Forest,0.0
+2027-01-18,WH05,P04119,Willowbrook Ultra USB-C Hub,9.25,Random Forest,0.0
+2027-01-25,WH05,P04119,Willowbrook Ultra USB-C Hub,8.84,Random Forest,0.0
+2027-02-01,WH05,P04119,Willowbrook Ultra USB-C Hub,10.17,Random Forest,0.0
+2027-02-08,WH05,P04119,Willowbrook Ultra USB-C Hub,13.06,Random Forest,0.0
+2027-02-15,WH05,P04119,Willowbrook Ultra USB-C Hub,11.46,Random Forest,0.0
+2027-02-22,WH05,P04119,Willowbrook Ultra USB-C Hub,7.24,Random Forest,0.0
+2027-01-04,WH04,P04119,Willowbrook Ultra USB-C Hub,8.25,Moving Average,32.2
+2027-01-11,WH04,P04119,Willowbrook Ultra USB-C Hub,9.06,Moving Average,32.2
+2027-01-18,WH04,P04119,Willowbrook Ultra USB-C Hub,8.08,Moving Average,32.2
+2027-01-25,WH04,P04119,Willowbrook Ultra USB-C Hub,7.85,Moving Average,32.2
+2027-02-01,WH04,P04119,Willowbrook Ultra USB-C Hub,8.31,Moving Average,32.2
+2027-02-08,WH04,P04119,Willowbrook Ultra USB-C Hub,8.32,Moving Average,32.2
+2027-02-15,WH04,P04119,Willowbrook Ultra USB-C Hub,8.14,Moving Average,32.2
+2027-02-22,WH04,P04119,Willowbrook Ultra USB-C Hub,8.16,Moving Average,32.2
+2027-01-04,WH06,P04119,Willowbrook Ultra USB-C Hub,13.25,Moving Average,57.79
+2027-01-11,WH06,P04119,Willowbrook Ultra USB-C Hub,12.31,Moving Average,57.79
+2027-01-18,WH06,P04119,Willowbrook Ultra USB-C Hub,13.89,Moving Average,57.79
+2027-01-25,WH06,P04119,Willowbrook Ultra USB-C Hub,9.86,Moving Average,57.79
+2027-02-01,WH06,P04119,Willowbrook Ultra USB-C Hub,12.33,Moving Average,57.79
+2027-02-08,WH06,P04119,Willowbrook Ultra USB-C Hub,12.1,Moving Average,57.79
+2027-02-15,WH06,P04119,Willowbrook Ultra USB-C Hub,12.05,Moving Average,57.79
+2027-02-22,WH06,P04119,Willowbrook Ultra USB-C Hub,11.58,Moving Average,57.79
+2027-01-04,WH02,P04614,Comet Lite Omega-3 Softgels,12.31,Random Forest,0.0
+2027-01-11,WH02,P04614,Comet Lite Omega-3 Softgels,7.99,Random Forest,0.0
+2027-01-18,WH02,P04614,Comet Lite Omega-3 Softgels,17.85,Random Forest,0.0
+2027-01-25,WH02,P04614,Comet Lite Omega-3 Softgels,9.79,Random Forest,0.0
+2027-02-01,WH02,P04614,Comet Lite Omega-3 Softgels,13.45,Random Forest,0.0
+2027-02-08,WH02,P04614,Comet Lite Omega-3 Softgels,8.75,Random Forest,0.0
+2027-02-15,WH02,P04614,Comet Lite Omega-3 Softgels,13.8,Random Forest,0.0
+2027-02-22,WH02,P04614,Comet Lite Omega-3 Softgels,8.1,Random Forest,0.0
+2027-01-04,WH09,P01155,Vanture Signature Wrap Dress,6.88,Exponential Smoothing,38.51
+2027-01-11,WH09,P01155,Vanture Signature Wrap Dress,6.88,Exponential Smoothing,38.51
+2027-01-18,WH09,P01155,Vanture Signature Wrap Dress,6.88,Exponential Smoothing,38.51
+2027-01-25,WH09,P01155,Vanture Signature Wrap Dress,6.88,Exponential Smoothing,38.51
+2027-02-01,WH09,P01155,Vanture Signature Wrap Dress,6.88,Exponential Smoothing,38.51
+2027-02-08,WH09,P01155,Vanture Signature Wrap Dress,6.88,Exponential Smoothing,38.51
+2027-02-15,WH09,P01155,Vanture Signature Wrap Dress,6.88,Exponential Smoothing,38.51
+2027-02-22,WH09,P01155,Vanture Signature Wrap Dress,6.88,Exponential Smoothing,38.51
+2027-01-04,WH08,P04119,Willowbrook Ultra USB-C Hub,6.27,Random Forest,46.0
+2027-01-11,WH08,P04119,Willowbrook Ultra USB-C Hub,4.75,Random Forest,46.0
+2027-01-18,WH08,P04119,Willowbrook Ultra USB-C Hub,5.12,Random Forest,46.0
+2027-01-25,WH08,P04119,Willowbrook Ultra USB-C Hub,4.03,Random Forest,46.0
+2027-02-01,WH08,P04119,Willowbrook Ultra USB-C Hub,3.34,Random Forest,46.0
+2027-02-08,WH08,P04119,Willowbrook Ultra USB-C Hub,4.35,Random Forest,46.0
+2027-02-15,WH08,P04119,Willowbrook Ultra USB-C Hub,5.65,Random Forest,46.0
+2027-02-22,WH08,P04119,Willowbrook Ultra USB-C Hub,3.85,Random Forest,46.0
+2027-01-04,WH12,P04119,Willowbrook Ultra USB-C Hub,6.03,Exponential Smoothing,32.99
+2027-01-11,WH12,P04119,Willowbrook Ultra USB-C Hub,6.03,Exponential Smoothing,32.99
+2027-01-18,WH12,P04119,Willowbrook Ultra USB-C Hub,6.03,Exponential Smoothing,32.99
+2027-01-25,WH12,P04119,Willowbrook Ultra USB-C Hub,6.03,Exponential Smoothing,32.99
+2027-02-01,WH12,P04119,Willowbrook Ultra USB-C Hub,6.03,Exponential Smoothing,32.99
+2027-02-08,WH12,P04119,Willowbrook Ultra USB-C Hub,6.03,Exponential Smoothing,32.99
+2027-02-15,WH12,P04119,Willowbrook Ultra USB-C Hub,6.03,Exponential Smoothing,32.99
+2027-02-22,WH12,P04119,Willowbrook Ultra USB-C Hub,6.03,Exponential Smoothing,32.99
+2027-01-04,WH09,P03618,BlueStone Max Model Kit,8.0,Moving Average,52.82
+2027-01-11,WH09,P03618,BlueStone Max Model Kit,10.0,Moving Average,52.82
+2027-01-18,WH09,P03618,BlueStone Max Model Kit,8.5,Moving Average,52.82
+2027-01-25,WH09,P03618,BlueStone Max Model Kit,7.88,Moving Average,52.82
+2027-02-01,WH09,P03618,BlueStone Max Model Kit,8.59,Moving Average,52.82
+2027-02-08,WH09,P03618,BlueStone Max Model Kit,8.74,Moving Average,52.82
+2027-02-15,WH09,P03618,BlueStone Max Model Kit,8.43,Moving Average,52.82
+2027-02-22,WH09,P03618,BlueStone Max Model Kit,8.41,Moving Average,52.82
+2027-01-04,WH10,P04119,Willowbrook Ultra USB-C Hub,2.81,Random Forest,9.46
+2027-01-11,WH10,P04119,Willowbrook Ultra USB-C Hub,3.17,Random Forest,9.46
+2027-01-18,WH10,P04119,Willowbrook Ultra USB-C Hub,4.24,Random Forest,9.46
+2027-01-25,WH10,P04119,Willowbrook Ultra USB-C Hub,2.95,Random Forest,9.46
+2027-02-01,WH10,P04119,Willowbrook Ultra USB-C Hub,4.48,Random Forest,9.46
+2027-02-08,WH10,P04119,Willowbrook Ultra USB-C Hub,5.52,Random Forest,9.46
+2027-02-15,WH10,P04119,Willowbrook Ultra USB-C Hub,5.83,Random Forest,9.46
+2027-02-22,WH10,P04119,Willowbrook Ultra USB-C Hub,6.59,Random Forest,9.46
+2027-01-04,WH09,P04614,Comet Lite Omega-3 Softgels,8.97,Random Forest,31.97
+2027-01-11,WH09,P04614,Comet Lite Omega-3 Softgels,13.93,Random Forest,31.97
+2027-01-18,WH09,P04614,Comet Lite Omega-3 Softgels,7.26,Random Forest,31.97
+2027-01-25,WH09,P04614,Comet Lite Omega-3 Softgels,6.1,Random Forest,31.97
+2027-02-01,WH09,P04614,Comet Lite Omega-3 Softgels,9.03,Random Forest,31.97
+2027-02-08,WH09,P04614,Comet Lite Omega-3 Softgels,7.43,Random Forest,31.97
+2027-02-15,WH09,P04614,Comet Lite Omega-3 Softgels,8.68,Random Forest,31.97
+2027-02-22,WH09,P04614,Comet Lite Omega-3 Softgels,6.07,Random Forest,31.97
+2027-01-04,WH04,P03618,BlueStone Max Model Kit,6.8,Exponential Smoothing,0.0
+2027-01-11,WH04,P03618,BlueStone Max Model Kit,6.8,Exponential Smoothing,0.0
+2027-01-18,WH04,P03618,BlueStone Max Model Kit,6.8,Exponential Smoothing,0.0
+2027-01-25,WH04,P03618,BlueStone Max Model Kit,6.8,Exponential Smoothing,0.0
+2027-02-01,WH04,P03618,BlueStone Max Model Kit,6.8,Exponential Smoothing,0.0
+2027-02-08,WH04,P03618,BlueStone Max Model Kit,6.8,Exponential Smoothing,0.0
+2027-02-15,WH04,P03618,BlueStone Max Model Kit,6.8,Exponential Smoothing,0.0
+2027-02-22,WH04,P03618,BlueStone Max Model Kit,6.8,Exponential Smoothing,0.0
+2027-01-04,WH09,P02102,Amberfield Everyday Plus Floor Mat Set,5.05,Exponential Smoothing,57.06
+2027-01-11,WH09,P02102,Amberfield Everyday Plus Floor Mat Set,5.05,Exponential Smoothing,57.06
+2027-01-18,WH09,P02102,Amberfield Everyday Plus Floor Mat Set,5.05,Exponential Smoothing,57.06
+2027-01-25,WH09,P02102,Amberfield Everyday Plus Floor Mat Set,5.05,Exponential Smoothing,57.06
+2027-02-01,WH09,P02102,Amberfield Everyday Plus Floor Mat Set,5.05,Exponential Smoothing,57.06
+2027-02-08,WH09,P02102,Amberfield Everyday Plus Floor Mat Set,5.05,Exponential Smoothing,57.06
+2027-02-15,WH09,P02102,Amberfield Everyday Plus Floor Mat Set,5.05,Exponential Smoothing,57.06
+2027-02-22,WH09,P02102,Amberfield Everyday Plus Floor Mat Set,5.05,Exponential Smoothing,57.06
+2027-01-04,WH09,P04967,Ironclad Essential Steering Wheel Cover,12.75,Exponential Smoothing,59.18
+2027-01-11,WH09,P04967,Ironclad Essential Steering Wheel Cover,12.75,Exponential Smoothing,59.18
+2027-01-18,WH09,P04967,Ironclad Essential Steering Wheel Cover,12.75,Exponential Smoothing,59.18
+2027-01-25,WH09,P04967,Ironclad Essential Steering Wheel Cover,12.75,Exponential Smoothing,59.18
+2027-02-01,WH09,P04967,Ironclad Essential Steering Wheel Cover,12.75,Exponential Smoothing,59.18
+2027-02-08,WH09,P04967,Ironclad Essential Steering Wheel Cover,12.75,Exponential Smoothing,59.18
+2027-02-15,WH09,P04967,Ironclad Essential Steering Wheel Cover,12.75,Exponential Smoothing,59.18
+2027-02-22,WH09,P04967,Ironclad Essential Steering Wheel Cover,12.75,Exponential Smoothing,59.18
+2027-01-04,WH11,P04119,Willowbrook Ultra USB-C Hub,3.75,Moving Average,0.0
+2027-01-11,WH11,P04119,Willowbrook Ultra USB-C Hub,2.69,Moving Average,0.0
+2027-01-18,WH11,P04119,Willowbrook Ultra USB-C Hub,2.61,Moving Average,0.0
+2027-01-25,WH11,P04119,Willowbrook Ultra USB-C Hub,2.26,Moving Average,0.0
+2027-02-01,WH11,P04119,Willowbrook Ultra USB-C Hub,2.83,Moving Average,0.0
+2027-02-08,WH11,P04119,Willowbrook Ultra USB-C Hub,2.6,Moving Average,0.0
+2027-02-15,WH11,P04119,Willowbrook Ultra USB-C Hub,2.57,Moving Average,0.0
+2027-02-22,WH11,P04119,Willowbrook Ultra USB-C Hub,2.56,Moving Average,0.0
+2027-01-04,WH09,P02418,Foundry Ultra Resistance Bands Set,5.98,Exponential Smoothing,0.0
+2027-01-11,WH09,P02418,Foundry Ultra Resistance Bands Set,5.98,Exponential Smoothing,0.0
+2027-01-18,WH09,P02418,Foundry Ultra Resistance Bands Set,5.98,Exponential Smoothing,0.0
+2027-01-25,WH09,P02418,Foundry Ultra Resistance Bands Set,5.98,Exponential Smoothing,0.0
+2027-02-01,WH09,P02418,Foundry Ultra Resistance Bands Set,5.98,Exponential Smoothing,0.0
+2027-02-08,WH09,P02418,Foundry Ultra Resistance Bands Set,5.98,Exponential Smoothing,0.0
+2027-02-15,WH09,P02418,Foundry Ultra Resistance Bands Set,5.98,Exponential Smoothing,0.0
+2027-02-22,WH09,P02418,Foundry Ultra Resistance Bands Set,5.98,Exponential Smoothing,0.0
+2027-01-04,WH01,P03618,BlueStone Max Model Kit,8.62,Exponential Smoothing,30.86
+2027-01-11,WH01,P03618,BlueStone Max Model Kit,8.62,Exponential Smoothing,30.86
+2027-01-18,WH01,P03618,BlueStone Max Model Kit,8.62,Exponential Smoothing,30.86
+2027-01-25,WH01,P03618,BlueStone Max Model Kit,8.62,Exponential Smoothing,30.86
+2027-02-01,WH01,P03618,BlueStone Max Model Kit,8.62,Exponential Smoothing,30.86
+2027-02-08,WH01,P03618,BlueStone Max Model Kit,8.62,Exponential Smoothing,30.86
+2027-02-15,WH01,P03618,BlueStone Max Model Kit,8.62,Exponential Smoothing,30.86
+2027-02-22,WH01,P03618,BlueStone Max Model Kit,8.62,Exponential Smoothing,30.86
+2027-01-04,WH04,P02102,Amberfield Everyday Plus Floor Mat Set,10.94,Random Forest,45.52
+2027-01-11,WH04,P02102,Amberfield Everyday Plus Floor Mat Set,11.57,Random Forest,45.52
+2027-01-18,WH04,P02102,Amberfield Everyday Plus Floor Mat Set,10.09,Random Forest,45.52
+2027-01-25,WH04,P02102,Amberfield Everyday Plus Floor Mat Set,6.6,Random Forest,45.52
+2027-02-01,WH04,P02102,Amberfield Everyday Plus Floor Mat Set,13.79,Random Forest,45.52
+2027-02-08,WH04,P02102,Amberfield Everyday Plus Floor Mat Set,7.92,Random Forest,45.52
+2027-02-15,WH04,P02102,Amberfield Everyday Plus Floor Mat Set,9.24,Random Forest,45.52
+2027-02-22,WH04,P02102,Amberfield Everyday Plus Floor Mat Set,4.4,Random Forest,45.52
+2027-01-04,WH09,P02143,UrbanNest Deluxe Phone Case,5.94,Exponential Smoothing,60.83
+2027-01-11,WH09,P02143,UrbanNest Deluxe Phone Case,5.94,Exponential Smoothing,60.83
+2027-01-18,WH09,P02143,UrbanNest Deluxe Phone Case,5.94,Exponential Smoothing,60.83
+2027-01-25,WH09,P02143,UrbanNest Deluxe Phone Case,5.94,Exponential Smoothing,60.83
+2027-02-01,WH09,P02143,UrbanNest Deluxe Phone Case,5.94,Exponential Smoothing,60.83
+2027-02-08,WH09,P02143,UrbanNest Deluxe Phone Case,5.94,Exponential Smoothing,60.83
+2027-02-15,WH09,P02143,UrbanNest Deluxe Phone Case,5.94,Exponential Smoothing,60.83
+2027-02-22,WH09,P02143,UrbanNest Deluxe Phone Case,5.94,Exponential Smoothing,60.83
+2027-01-04,WH02,P03618,BlueStone Max Model Kit,5.14,Random Forest,0.0
+2027-01-11,WH02,P03618,BlueStone Max Model Kit,6.97,Random Forest,0.0
+2027-01-18,WH02,P03618,BlueStone Max Model Kit,6.12,Random Forest,0.0
+2027-01-25,WH02,P03618,BlueStone Max Model Kit,5.2,Random Forest,0.0
+2027-02-01,WH02,P03618,BlueStone Max Model Kit,4.93,Random Forest,0.0
+2027-02-08,WH02,P03618,BlueStone Max Model Kit,4.57,Random Forest,0.0
+2027-02-15,WH02,P03618,BlueStone Max Model Kit,5.12,Random Forest,0.0
+2027-02-22,WH02,P03618,BlueStone Max Model Kit,5.87,Random Forest,0.0
+2027-01-04,WH01,P01155,Vanture Signature Wrap Dress,7.0,Moving Average,61.82
+2027-01-11,WH01,P01155,Vanture Signature Wrap Dress,8.75,Moving Average,61.82
+2027-01-18,WH01,P01155,Vanture Signature Wrap Dress,8.19,Moving Average,61.82
+2027-01-25,WH01,P01155,Vanture Signature Wrap Dress,7.98,Moving Average,61.82
+2027-02-01,WH01,P01155,Vanture Signature Wrap Dress,7.98,Moving Average,61.82
+2027-02-08,WH01,P01155,Vanture Signature Wrap Dress,8.23,Moving Average,61.82
+2027-02-15,WH01,P01155,Vanture Signature Wrap Dress,8.09,Moving Average,61.82
+2027-02-22,WH01,P01155,Vanture Signature Wrap Dress,8.07,Moving Average,61.82
+2027-01-04,WH09,P01034,Ostrom Everyday Trail Mix,6.52,Random Forest,8.11
+2027-01-11,WH09,P01034,Ostrom Everyday Trail Mix,4.65,Random Forest,8.11
+2027-01-18,WH09,P01034,Ostrom Everyday Trail Mix,3.77,Random Forest,8.11
+2027-01-25,WH09,P01034,Ostrom Everyday Trail Mix,5.32,Random Forest,8.11
+2027-02-01,WH09,P01034,Ostrom Everyday Trail Mix,3.27,Random Forest,8.11
+2027-02-08,WH09,P01034,Ostrom Everyday Trail Mix,2.84,Random Forest,8.11
+2027-02-15,WH09,P01034,Ostrom Everyday Trail Mix,3.97,Random Forest,8.11
+2027-02-22,WH09,P01034,Ostrom Everyday Trail Mix,3.88,Random Forest,8.11
+2027-01-04,WH01,P02102,Amberfield Everyday Plus Floor Mat Set,3.5,Moving Average,60.98
+2027-01-11,WH01,P02102,Amberfield Everyday Plus Floor Mat Set,4.38,Moving Average,60.98
+2027-01-18,WH01,P02102,Amberfield Everyday Plus Floor Mat Set,3.47,Moving Average,60.98
+2027-01-25,WH01,P02102,Amberfield Everyday Plus Floor Mat Set,3.34,Moving Average,60.98
+2027-02-01,WH01,P02102,Amberfield Everyday Plus Floor Mat Set,3.67,Moving Average,60.98
+2027-02-08,WH01,P02102,Amberfield Everyday Plus Floor Mat Set,3.71,Moving Average,60.98
+2027-02-15,WH01,P02102,Amberfield Everyday Plus Floor Mat Set,3.55,Moving Average,60.98
+2027-02-22,WH01,P02102,Amberfield Everyday Plus Floor Mat Set,3.57,Moving Average,60.98
+2027-01-04,WH03,P04614,Comet Lite Omega-3 Softgels,7.92,Random Forest,24.87
+2027-01-11,WH03,P04614,Comet Lite Omega-3 Softgels,10.59,Random Forest,24.87
+2027-01-18,WH03,P04614,Comet Lite Omega-3 Softgels,8.73,Random Forest,24.87
+2027-01-25,WH03,P04614,Comet Lite Omega-3 Softgels,2.32,Random Forest,24.87
+2027-02-01,WH03,P04614,Comet Lite Omega-3 Softgels,1.95,Random Forest,24.87
+2027-02-08,WH03,P04614,Comet Lite Omega-3 Softgels,6.1,Random Forest,24.87
+2027-02-15,WH03,P04614,Comet Lite Omega-3 Softgels,4.03,Random Forest,24.87
+2027-02-22,WH03,P04614,Comet Lite Omega-3 Softgels,6.51,Random Forest,24.87
+2027-01-04,WH03,P03618,BlueStone Max Model Kit,5.5,Moving Average,0.0
+2027-01-11,WH03,P03618,BlueStone Max Model Kit,5.62,Moving Average,0.0
+2027-01-18,WH03,P03618,BlueStone Max Model Kit,4.28,Moving Average,0.0
+2027-01-25,WH03,P03618,BlueStone Max Model Kit,4.1,Moving Average,0.0
+2027-02-01,WH03,P03618,BlueStone Max Model Kit,4.88,Moving Average,0.0
+2027-02-08,WH03,P03618,BlueStone Max Model Kit,4.72,Moving Average,0.0
+2027-02-15,WH03,P03618,BlueStone Max Model Kit,4.5,Moving Average,0.0
+2027-02-22,WH03,P03618,BlueStone Max Model Kit,4.55,Moving Average,0.0
+2027-01-04,WH05,P03618,BlueStone Max Model Kit,9.83,Random Forest,14.22
+2027-01-11,WH05,P03618,BlueStone Max Model Kit,7.83,Random Forest,14.22
+2027-01-18,WH05,P03618,BlueStone Max Model Kit,12.18,Random Forest,14.22
+2027-01-25,WH05,P03618,BlueStone Max Model Kit,9.3,Random Forest,14.22
+2027-02-01,WH05,P03618,BlueStone Max Model Kit,8.58,Random Forest,14.22
+2027-02-08,WH05,P03618,BlueStone Max Model Kit,7.77,Random Forest,14.22
+2027-02-15,WH05,P03618,BlueStone Max Model Kit,7.02,Random Forest,14.22
+2027-02-22,WH05,P03618,BlueStone Max Model Kit,6.26,Random Forest,14.22
+2027-01-04,WH03,P02102,Amberfield Everyday Plus Floor Mat Set,10.55,Random Forest,57.41
+2027-01-11,WH03,P02102,Amberfield Everyday Plus Floor Mat Set,6.01,Random Forest,57.41
+2027-01-18,WH03,P02102,Amberfield Everyday Plus Floor Mat Set,4.82,Random Forest,57.41
+2027-01-25,WH03,P02102,Amberfield Everyday Plus Floor Mat Set,3.24,Random Forest,57.41
+2027-02-01,WH03,P02102,Amberfield Everyday Plus Floor Mat Set,3.12,Random Forest,57.41
+2027-02-08,WH03,P02102,Amberfield Everyday Plus Floor Mat Set,3.24,Random Forest,57.41
+2027-02-15,WH03,P02102,Amberfield Everyday Plus Floor Mat Set,3.82,Random Forest,57.41
+2027-02-22,WH03,P02102,Amberfield Everyday Plus Floor Mat Set,5.01,Random Forest,57.41
+2027-01-04,WH04,P04614,Comet Lite Omega-3 Softgels,3.75,Moving Average,59.48
+2027-01-11,WH04,P04614,Comet Lite Omega-3 Softgels,3.94,Moving Average,59.48
+2027-01-18,WH04,P04614,Comet Lite Omega-3 Softgels,3.42,Moving Average,59.48
+2027-01-25,WH04,P04614,Comet Lite Omega-3 Softgels,2.78,Moving Average,59.48
+2027-02-01,WH04,P04614,Comet Lite Omega-3 Softgels,3.47,Moving Average,59.48
+2027-02-08,WH04,P04614,Comet Lite Omega-3 Softgels,3.4,Moving Average,59.48
+2027-02-15,WH04,P04614,Comet Lite Omega-3 Softgels,3.27,Moving Average,59.48
+2027-02-22,WH04,P04614,Comet Lite Omega-3 Softgels,3.23,Moving Average,59.48
+2027-01-04,WH03,P01034,Ostrom Everyday Trail Mix,5.45,Random Forest,0.0
+2027-01-11,WH03,P01034,Ostrom Everyday Trail Mix,4.54,Random Forest,0.0
+2027-01-18,WH03,P01034,Ostrom Everyday Trail Mix,7.77,Random Forest,0.0
+2027-01-25,WH03,P01034,Ostrom Everyday Trail Mix,5.04,Random Forest,0.0
+2027-02-01,WH03,P01034,Ostrom Everyday Trail Mix,4.51,Random Forest,0.0
+2027-02-08,WH03,P01034,Ostrom Everyday Trail Mix,4.98,Random Forest,0.0
+2027-02-15,WH03,P01034,Ostrom Everyday Trail Mix,5.09,Random Forest,0.0
+2027-02-22,WH03,P01034,Ostrom Everyday Trail Mix,2.73,Random Forest,0.0
+2027-01-04,WH02,P02102,Amberfield Everyday Plus Floor Mat Set,5.17,Exponential Smoothing,49.69
+2027-01-11,WH02,P02102,Amberfield Everyday Plus Floor Mat Set,5.17,Exponential Smoothing,49.69
+2027-01-18,WH02,P02102,Amberfield Everyday Plus Floor Mat Set,5.17,Exponential Smoothing,49.69
+2027-01-25,WH02,P02102,Amberfield Everyday Plus Floor Mat Set,5.17,Exponential Smoothing,49.69
+2027-02-01,WH02,P02102,Amberfield Everyday Plus Floor Mat Set,5.17,Exponential Smoothing,49.69
+2027-02-08,WH02,P02102,Amberfield Everyday Plus Floor Mat Set,5.17,Exponential Smoothing,49.69
+2027-02-15,WH02,P02102,Amberfield Everyday Plus Floor Mat Set,5.17,Exponential Smoothing,49.69
+2027-02-22,WH02,P02102,Amberfield Everyday Plus Floor Mat Set,5.17,Exponential Smoothing,49.69
+2027-01-04,WH04,P01155,Vanture Signature Wrap Dress,7.5,Moving Average,53.71
+2027-01-11,WH04,P01155,Vanture Signature Wrap Dress,8.62,Moving Average,53.71
+2027-01-18,WH04,P01155,Vanture Signature Wrap Dress,9.03,Moving Average,53.71
+2027-01-25,WH04,P01155,Vanture Signature Wrap Dress,7.54,Moving Average,53.71
+2027-02-01,WH04,P01155,Vanture Signature Wrap Dress,8.17,Moving Average,53.71
+2027-02-08,WH04,P01155,Vanture Signature Wrap Dress,8.34,Moving Average,53.71
+2027-02-15,WH04,P01155,Vanture Signature Wrap Dress,8.27,Moving Average,53.71
+2027-02-22,WH04,P01155,Vanture Signature Wrap Dress,8.08,Moving Average,53.71
+2027-01-04,WH02,P01034,Ostrom Everyday Trail Mix,5.34,Random Forest,25.11
+2027-01-11,WH02,P01034,Ostrom Everyday Trail Mix,8.2,Random Forest,25.11
+2027-01-18,WH02,P01034,Ostrom Everyday Trail Mix,6.88,Random Forest,25.11
+2027-01-25,WH02,P01034,Ostrom Everyday Trail Mix,5.21,Random Forest,25.11
+2027-02-01,WH02,P01034,Ostrom Everyday Trail Mix,4.14,Random Forest,25.11
+2027-02-08,WH02,P01034,Ostrom Everyday Trail Mix,4.02,Random Forest,25.11
+2027-02-15,WH02,P01034,Ostrom Everyday Trail Mix,3.64,Random Forest,25.11
+2027-02-22,WH02,P01034,Ostrom Everyday Trail Mix,3.99,Random Forest,25.11
+2027-01-04,WH01,P01034,Ostrom Everyday Trail Mix,4.31,Random Forest,0.0
+2027-01-11,WH01,P01034,Ostrom Everyday Trail Mix,2.82,Random Forest,0.0
+2027-01-18,WH01,P01034,Ostrom Everyday Trail Mix,3.39,Random Forest,0.0
+2027-01-25,WH01,P01034,Ostrom Everyday Trail Mix,3.19,Random Forest,0.0
+2027-02-01,WH01,P01034,Ostrom Everyday Trail Mix,2.92,Random Forest,0.0
+2027-02-08,WH01,P01034,Ostrom Everyday Trail Mix,3.03,Random Forest,0.0
+2027-02-15,WH01,P01034,Ostrom Everyday Trail Mix,2.69,Random Forest,0.0
+2027-02-22,WH01,P01034,Ostrom Everyday Trail Mix,4.9,Random Forest,0.0
+2027-01-04,WH05,P04614,Comet Lite Omega-3 Softgels,4.75,Random Forest,0.0
+2027-01-11,WH05,P04614,Comet Lite Omega-3 Softgels,3.89,Random Forest,0.0
+2027-01-18,WH05,P04614,Comet Lite Omega-3 Softgels,2.47,Random Forest,0.0
+2027-01-25,WH05,P04614,Comet Lite Omega-3 Softgels,4.85,Random Forest,0.0
+2027-02-01,WH05,P04614,Comet Lite Omega-3 Softgels,5.14,Random Forest,0.0
+2027-02-08,WH05,P04614,Comet Lite Omega-3 Softgels,5.13,Random Forest,0.0
+2027-02-15,WH05,P04614,Comet Lite Omega-3 Softgels,5.05,Random Forest,0.0
+2027-02-22,WH05,P04614,Comet Lite Omega-3 Softgels,5.88,Random Forest,0.0
+2027-01-04,WH01,P04614,Comet Lite Omega-3 Softgels,3.93,Exponential Smoothing,59.87
+2027-01-11,WH01,P04614,Comet Lite Omega-3 Softgels,3.93,Exponential Smoothing,59.87
+2027-01-18,WH01,P04614,Comet Lite Omega-3 Softgels,3.93,Exponential Smoothing,59.87
+2027-01-25,WH01,P04614,Comet Lite Omega-3 Softgels,3.93,Exponential Smoothing,59.87
+2027-02-01,WH01,P04614,Comet Lite Omega-3 Softgels,3.93,Exponential Smoothing,59.87
+2027-02-08,WH01,P04614,Comet Lite Omega-3 Softgels,3.93,Exponential Smoothing,59.87
+2027-02-15,WH01,P04614,Comet Lite Omega-3 Softgels,3.93,Exponential Smoothing,59.87
+2027-02-22,WH01,P04614,Comet Lite Omega-3 Softgels,3.93,Exponential Smoothing,59.87

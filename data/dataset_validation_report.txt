@@ -1,0 +1,82 @@
+DATA VALIDATION REPORT
+======================================================================
+Overall status: PASS
+Project path: C:\Users\naren\OneDrive\Desktop\Data Analytics\Projects\MAANG & McKinsey Projects\Amazon Supply Chain Intelligence & Inventory Optimization Platform
+Data path: C:\Users\naren\OneDrive\Desktop\Data Analytics\Projects\MAANG & McKinsey Projects\Amazon Supply Chain Intelligence & Inventory Optimization Platform\data\raw
+
+TABLE SUMMARY
+----------------------------------------------------------------------
+products                 rows=     5,000  nulls=   3,460
+suppliers                rows=       300  nulls=       0
+warehouses               rows=        12  nulls=       0
+inventory                rows= 3,120,000  nulls=       0
+sales_orders             rows=   300,000  nulls=  35,459
+sales_order_items        rows=   570,122  nulls=       0
+purchase_orders          rows=    60,000  nulls=   4,888
+forecasts                rows=   149,986  nulls=       0
+
+VALIDATION CHECKS
+----------------------------------------------------------------------
+products columns                           PASS
+suppliers columns                          PASS
+warehouses columns                         PASS
+inventory columns                          PASS
+sales_orders columns                       PASS
+sales_order_items columns                  PASS
+purchase_orders columns                    PASS
+forecasts columns                          PASS
+products duplicate IDs                     PASS
+suppliers duplicate IDs                    PASS
+warehouses duplicate IDs                   PASS
+sales_orders duplicate IDs                 PASS
+sales_order_items duplicate IDs            PASS
+purchase_orders duplicate IDs              PASS
+inventory duplicate keys                   PASS
+products -> suppliers                      PASS
+inventory -> products                      PASS
+inventory -> warehouses                    PASS
+sales orders -> warehouses                 PASS
+order items -> orders                      PASS
+order items -> products                    PASS
+purchase orders -> suppliers               PASS
+purchase orders -> warehouses              PASS
+forecasts -> products                      PASS
+forecasts -> warehouses                    PASS
+unexpected missing values                  PASS
+products negative values                   PASS
+suppliers negative values                  PASS
+warehouses negative values                 PASS
+inventory negative values                  PASS
+sales_orders negative values               PASS
+sales_order_items negative values          PASS
+purchase_orders negative values            PASS
+forecasts negative values                  PASS
+product price consistency                  PASS
+sales amount calculation                   PASS
+cost amount                                PASS
+returned quantity                          PASS
+order total consistency                    PASS
+sales promised dates                       PASS
+sales actual dates                         PASS
+sales completion dates                     PASS
+purchase order dates                       PASS
+purchase order quantities                  PASS
+purchase order value                       PASS
+inventory balance                          PASS
+inventory stockout flag                    PASS
+inventory value                            PASS
+inventory dates                            PASS
+forecast horizons                          PASS
+forecast bounds                            PASS
+products date parsing                      PASS
+inventory date parsing                     PASS
+sales_orders date parsing                  PASS
+purchase_orders date parsing               PASS
+forecasts date parsing                     PASS
+business rules                             PASS - Hard business rules passed.
+
+NOTES
+----------------------------------------------------------------------
+- Some discounts are above 30%, which is unusual but possible.
+
+Validation result: PASS
